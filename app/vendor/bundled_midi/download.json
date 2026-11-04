@@ -1,0 +1,14 @@
+{
+  "source": "https://github.com/Tsundeer/MeowField_MidiLibrary",
+  "archive_url": "https://codeload.github.com/Tsundeer/MeowField_MidiLibrary/zip/refs/heads/main",
+  "archive_bytes": 64399159,
+  "archive_sha256": "ac5ff9bca2c9dfda08ad116aed5380f80eeea1a9b77ef682d49e156a77b6372d",
+  "catalog_sha256": "e1a62a0c4675e3a2c0847d30a5a9b1af685e48117449e063ca2256f7b6a3ead1",
+  "bundle_sha256": "ccb96b55c1ce6fc42d1eb521e02fa6ab4a4a0961b6e298caa1da27de2f7b6099",
+  "catalog_rows": 19197,
+  "downloaded_rows": 19197,
+  "unique_files": 19197,
+  "raw_midi_bytes": 251239658,
+  "bundle_bytes": 61746357,
+  "failures": []
+}

@@ -1,0 +1,24 @@
+{
+  "provider": "Wikimedia Commons",
+  "api": "https://commons.wikimedia.org/w/api.php",
+  "query": "filemime:audio/midi",
+  "score_versions": 6858,
+  "metadata_pages": 15,
+  "same_sha1_deduplicated": true,
+  "allowed_licenses": "Public domain / CC0 / CC BY / CC BY-SA as recorded per file",
+  "excluded_licenses": {
+    "Copyrighted free use": 47,
+    "GFDL": 12,
+    "GPL": 10,
+    "CeCILL": 1,
+    "Attribution": 2,
+    "OGA-BY 3.0": 1,
+    "No restrictions": 2,
+    "FAL": 1,
+    "CC SA 1.0": 1
+  },
+  "metadata_only": true,
+  "all_files_parse_or_seven_key_compatibility_claimed": false,
+  "sha256": "457a6a8bed51a4d3306a90d8979d8421049d89cd7c885a810a050af279d13a83",
+  "bytes": 2085278
+}

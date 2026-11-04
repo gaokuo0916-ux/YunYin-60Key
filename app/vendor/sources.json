@@ -1,0 +1,47 @@
+{
+  "tesseract4android-4.9.0.aar": {
+    "url": "https://jitpack.io/cz/adaptech/tesseract4android/tesseract4android/4.9.0/tesseract4android-4.9.0.aar",
+    "bytes": 12848454,
+    "sha256": "bce5d6413a1a5ae3d7240033fbbc851ba3217d0a08d9769400e17a077f42cb2a"
+  },
+  "eng.traineddata": {
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/eng.traineddata",
+    "bytes": 4113088,
+    "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+  },
+  "online_index.html": {
+    "url": "https://musetrainer.github.io/library/",
+    "bytes": 29574,
+    "sha256": "6c0a0677183fb2165fedbf5c6d6f86b60105061f0c62594a56d51af48cb79dd9"
+  },
+  "catalog_generator.py.txt": {
+    "url": "https://raw.githubusercontent.com/musetrainer/library/master/scripts/generate.py",
+    "bytes": 3324,
+    "sha256": "2988099ea7fceeef451d7df0c59831ea5c2516cab3a955a75c6bfba4cbf9ea30"
+  },
+  "tess_license.txt": {
+    "url": "https://raw.githubusercontent.com/adaptech-cz/Tesseract4Android/master/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "traineddata_license.txt": {
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "leptonica_license.txt": {
+    "url": "https://raw.githubusercontent.com/DanBloomberg/leptonica/master/leptonica-license.txt",
+    "bytes": 1521,
+    "sha256": "87829abb5bbb00b55a107365da89e9a33f86c4250169e5a1e5588505be7d5806"
+  },
+  "libpng_license.txt": {
+    "url": "https://raw.githubusercontent.com/pnggroup/libpng/v1.6.48/LICENSE",
+    "bytes": 5345,
+    "sha256": "16d9daaafbf63a31a5bdc91d4600972548fef5aaa1244202393288dbd079c49a"
+  },
+  "libjpeg_license.txt": {
+    "url": "https://www.ijg.org/files/jpegsrc.v9f.tar.gz",
+    "bytes": 18719,
+    "sha256": "7c25493a9f64fed34d01445467341bda77bc1cdbeccbe33558659ef173fb9ff2"
+  }
+}

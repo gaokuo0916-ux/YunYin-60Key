@@ -1,0 +1,31 @@
+{
+  "ready": true,
+  "user_code": "0x0000D2F1",
+  "resources": {
+    "Logic": "49969/59904",
+    "Register": "21778/60780",
+    "BSRAM": "103/118",
+    "DSP": "64.5/118",
+    "CLS": "27550/29952"
+  },
+  "delta_from_C63E": {
+    "Logic": 214.0,
+    "Register": 27.0,
+    "BSRAM": 0.0,
+    "DSP": 0.0,
+    "CLS": 226.0
+  },
+  "fmax_mhz": 50.075,
+  "timing_violations": {
+    "Setup": 0,
+    "Hold": 0
+  },
+  "checked_pins": 55,
+  "RTL_files_changed": [
+    "src/lcd_pending/lcd_adsr_panel.v",
+    "src/lcd_pending/lcd_adsr_renderer.v"
+  ],
+  "current_RTL_suites": 7,
+  "app_version": "2.6.6",
+  "physical_board_test": false
+}

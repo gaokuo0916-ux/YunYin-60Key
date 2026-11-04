@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+<Template>FPGA</Template><Version>5</Version>
+<Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+<!-- Gowin GUI process options live in impl/guitar_penghuwan_ledguide_process_config.json.
+     The copy in config/ is used by Restore-GowinConfig.ps1 if impl/ is removed. -->
+<FileList>
+<File path="src/keyboard60_scan.v" type="file.verilog" enable="1"/>
+<File path="src/keyboard60_controls.v" type="file.verilog" enable="1"/>
+<File path="src/ads7828_panel.v" type="file.verilog" enable="1"/>
+<File path="src/control_panel_map.v" type="file.verilog" enable="1"/>
+<File path="src/keyboard60_performance.v" type="file.verilog" enable="1"/>
+<File path="src/keyboard60_tables.v" type="file.verilog" enable="1"/>
+<File path="src/keyboard60_led.v" type="file.verilog" enable="1"/>
+
+<File path="src/lcd_pending/audio_fundamental_monitor.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/audio_plot_reference.v" type="file.verilog" enable="1"/>
+<File path="src/poly32_lane.v" type="file.verilog" enable="1"/>
+<File path="src/poly32_synth.v" type="file.verilog" enable="1"/>
+<File path="src/challenge_title_rom.v" type="file.verilog" enable="1"/>
+    <File path="src/challenge_catalog.v" type="file.verilog" enable="1"/>
+    <File path="src/challenge_catalog_store.v" type="file.verilog" enable="1"/>
+    <File path="src/challenge_music.v" type="file.verilog" enable="1"/>
+<File path="src/rhythm_challenge.v" type="file.verilog" enable="1"/>
+<File path="src/training_score_rom.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_rhythm_renderer.v" type="file.verilog" enable="1"/>
+<File path="src/studio_audio_store.v" type="file.verilog" enable="1"/>
+<File path="src/sd_spi_block.v" type="file.verilog" enable="1"/>
+<File path="src/sd_pin_trace.v" type="file.verilog" enable="1"/>
+<File path="src/sd_file_volume.v" type="file.verilog" enable="1"/>
+<File path="src/studio_score_store.v" type="file.verilog" enable="1"/>
+<File path="src/studio_storage.v" type="file.verilog" enable="1"/>
+<File path="src/bluetooth_score_studio.v" type="file.verilog" enable="1"/>
+
+<File path="src/studio_keymap.v" type="file.verilog" enable="1"/>
+<File path="src/studio_pcm_capture.v" type="file.verilog" enable="1"/>
+<File path="src/studio_link.v" type="file.verilog" enable="1"/>
+<File path="src/bluetooth_reply_studio.v" type="file.verilog" enable="1"/>
+
+<File path="src/i2s_tx.v" type="file.verilog" enable="1"/>
+    <File path="src/performance_control.v" type="file.verilog" enable="1"/>
+    <File path="src/performance_mix.v" type="file.verilog" enable="1"/>
+    <File path="src/performance_display.v" type="file.verilog" enable="1"/>
+    <File path="src/performance_pitch_table.v" type="file.verilog" enable="1"/>
+<File path="src/bluetooth_uart.v" type="file.verilog" enable="1"/>
+<File path="src/bluetooth_command_rx.v" type="file.verilog" enable="1"/>
+<File path="src/bluetooth_reply.v" type="file.verilog" enable="1"/>
+<File path="src/bluetooth_score.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_score_renderer.v" type="file.verilog" enable="1"/>
+<File path="src/guitar_penghuwan_ledguide.v" type="file.verilog" enable="1"/>
+<File path="src/led_practice_control.v" type="file.verilog" enable="1"/>
+<File path="src/penghuwan_score_rom.v" type="file.verilog" enable="1"/>
+<File path="src/adsr_envelope.v" type="file.verilog" enable="1"/>
+<File path="src/guitar_voice.v" type="file.verilog" enable="1"/>
+<File path="src/guitar_synth_7.v" type="file.verilog" enable="1"/>
+<File path="src/accordion_synth_7.v" type="file.verilog" enable="1"/>
+<File path="src/accordion_reed_table.v" type="file.verilog" enable="1"/>
+<File path="src/piano_modal_synth_7.v" type="file.verilog" enable="1"/>
+<File path="src/piano_modal_tables.v" type="file.verilog" enable="1"/>
+<File path="src/timbre_select.v" type="file.verilog" enable="1"/>
+<File path="src/tone_output_filter.v" type="file.verilog" enable="1"/>
+<File path="src/pt8211_tx.v" type="file.verilog" enable="1"/>
+<File path="src/guitar_penghuwan_ledguide.cst" type="file.cst" enable="1"/>
+<File path="src/guitar_penghuwan_ledguide.sdc" type="file.sdc" enable="1"/>
+<File path="src/lcd_pending/adsr_parameter_bank.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/adsr_parameter_tables.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/adsr_runtime.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/adsr_touch_sliders.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/gt911_touch_reader.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/i2c_register_master.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_adsr_panel.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_adsr_renderer.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_panel_digit.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_panel_font.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_panel_text.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/lcd_timing_generic.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/audio_wave_capture.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/audio_spectrum.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/audio_phase_plot.v" type="file.verilog" enable="1"/>
+<File path="src/lcd_pending/visualizer_tables.v" type="file.verilog" enable="1"/>
+    <File path="src/practice_record_store.v" type="file.verilog" enable="1"/>
+</FileList></Project>

@@ -1,0 +1,19 @@
+{
+  "C63E": {
+    "Logic": 49392,
+    "Register": 21751
+  },
+  "ADSR_light": {
+    "Logic": 49605,
+    "Register": 21778
+  },
+  "synthesis_delta": {
+    "Logic": 213,
+    "Register": 27
+  },
+  "production_RTL_changes": [
+    "src/lcd_pending/lcd_adsr_panel.v",
+    "src/lcd_pending/lcd_adsr_renderer.v"
+  ],
+  "physical_resources_and_STA_pending": true
+}

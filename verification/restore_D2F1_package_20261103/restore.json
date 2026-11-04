@@ -1,0 +1,22 @@
+{
+  "restored": true,
+  "user_code": "0x0000D2F1",
+  "app_version": "2.6.6",
+  "source_backup": "D:\\intelFPGA\\FPGA_contest\\new\\gowin\\mega60k_audio-fuben\\YunYin_v2_6_60Key\\verification\\white_key_remap_20261103\\before_D2F1.zip",
+  "backup_before_restore": "D:\\intelFPGA\\FPGA_contest\\new\\gowin\\mega60k_audio-fuben\\YunYin_v2_6_60Key\\verification\\restore_D2F1_package_20261103\\before_restore_unpublished_candidate.zip",
+  "restored_files": [
+    "src/keyboard60_tables.v",
+    "src/poly32_synth.v",
+    "src/lcd_pending/audio_phase_plot.v",
+    "src/lcd_pending/lcd_adsr_panel.v",
+    "programming/yunyin_60key_38400_8192.fs",
+    "programming/yunyin_60key_38400_8192.bin",
+    "reports/release.json"
+  ],
+  "source_hashes_verified": 73,
+  "app_source_hashes_verified": 51,
+  "FPGA_build_started": false,
+  "cancelled_candidate_not_published": true,
+  "physical_board_test": false,
+  "completed": "2026-11-03T17:47:30.204174+08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "changed_comments_only": true,
+  "logic_unchanged": true,
+  "synthesis_directives_unchanged": true,
+  "rebuilt": false,
+  "user_code": "0x0000D2F1",
+  "files": {
+    "src/piano_modal_tables.v": {
+      "original_release_sha256": "bfe36c72ec1720585675ea77b53a26fca21ae8baefa816c9cad6c0cb303c17f2",
+      "current_sha256": "25ddf10577524b653d1ce4c10e910e3db88e916e79493147c01ce2722dc14114",
+      "change": "one ordinary comment line"
+    },
+    "src/lcd_pending/lcd_adsr_panel.v": {
+      "original_release_sha256": "67aa493b689f47f7e0471824b38a3ec916929c3001c6741ae70544cb747edfcd",
+      "current_sha256": "f1674afed1fb5c7fdb9021706146d15d2819a928af82e37e69abcdfcf855ff0e",
+      "change": "one ordinary comment line"
+    }
+  },
+  "completed": "2026-11-03T20:29:17.470153+08:00"
+}

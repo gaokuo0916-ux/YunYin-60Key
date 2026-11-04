@@ -1,0 +1,4541 @@
+{
+  "format": 2,
+  "songs_per_level": 5,
+  "time_unit": "sixteenth note; due times quantized to shared 5ms timeline",
+  "selection_policy": "choose while idle or results; pass any song to unlock next level",
+  "provenance": "Original MIDI remains unchanged in bundled library; selected phrases are practice arrangements, not complete original performances.",
+  "songs": [
+    {
+      "id": 0,
+      "level": 0,
+      "title": "小星星",
+      "bpm": 80,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 0,
+          "units": 4,
+          "due_ms": 0
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 4,
+          "units": 4,
+          "due_ms": 750
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 8,
+          "units": 4,
+          "due_ms": 1500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 12,
+          "units": 4,
+          "due_ms": 2250
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 3000
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 20,
+          "units": 4,
+          "due_ms": 3750
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 24,
+          "units": 8,
+          "due_ms": 4500
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 6000
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 36,
+          "units": 4,
+          "due_ms": 6750
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 40,
+          "units": 4,
+          "due_ms": 7500
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 44,
+          "units": 4,
+          "due_ms": 8250
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 48,
+          "units": 4,
+          "due_ms": 9000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 52,
+          "units": 4,
+          "due_ms": 9750
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 56,
+          "units": 8,
+          "due_ms": 10500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 12000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 68,
+          "units": 4,
+          "due_ms": 12750
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 72,
+          "units": 4,
+          "due_ms": 13500
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 76,
+          "units": 4,
+          "due_ms": 14250
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 84,
+          "units": 4,
+          "due_ms": 15750
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 88,
+          "units": 8,
+          "due_ms": 16500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 18000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 100,
+          "units": 4,
+          "due_ms": 18750
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 104,
+          "units": 4,
+          "due_ms": 19500
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 108,
+          "units": 4,
+          "due_ms": 20250
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 112,
+          "units": 4,
+          "due_ms": 21000
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 116,
+          "units": 4,
+          "due_ms": 21750
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 120,
+          "units": 8,
+          "due_ms": 22500
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 128,
+          "units": 4,
+          "due_ms": 24000
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 132,
+          "units": 4,
+          "due_ms": 24750
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 136,
+          "units": 4,
+          "due_ms": 25500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 140,
+          "units": 4,
+          "due_ms": 26250
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 144,
+          "units": 4,
+          "due_ms": 27000
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 148,
+          "units": 4,
+          "due_ms": 27750
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 152,
+          "units": 8,
+          "due_ms": 28500
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 160,
+          "units": 4,
+          "due_ms": 30000
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 164,
+          "units": 4,
+          "due_ms": 30750
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 168,
+          "units": 4,
+          "due_ms": 31500
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 172,
+          "units": 4,
+          "due_ms": 32250
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 176,
+          "units": 4,
+          "due_ms": 33000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 180,
+          "units": 4,
+          "due_ms": 33750
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 184,
+          "units": 8,
+          "due_ms": 34500
+        }
+      ],
+      "notes": 42,
+      "end_ms": 36000,
+      "units": 192,
+      "pass_score": 60,
+      "min_pitch": 60,
+      "max_pitch": 69,
+      "tonic": 0,
+      "chords": [
+        "C",
+        "F",
+        "C",
+        "G",
+        "C",
+        "F",
+        "C",
+        "G",
+        "C",
+        "F",
+        "C",
+        "G"
+      ],
+      "source": {
+        "kind": "preserved previous three-song challenge",
+        "urls": [
+          "https://en.wikipedia.org/wiki/Twinkle,_Twinkle,_Little_Star"
+        ]
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 1,
+      "level": 0,
+      "title": "两只老虎",
+      "bpm": 88,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 0,
+          "units": 4,
+          "due_ms": 0
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 4,
+          "units": 4,
+          "due_ms": 680
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 8,
+          "units": 4,
+          "due_ms": 1365
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 12,
+          "units": 4,
+          "due_ms": 2045
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 2725
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 20,
+          "units": 4,
+          "due_ms": 3410
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 24,
+          "units": 4,
+          "due_ms": 4090
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 28,
+          "units": 4,
+          "due_ms": 4775
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 5455
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 36,
+          "units": 4,
+          "due_ms": 6135
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 40,
+          "units": 8,
+          "due_ms": 6820
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 48,
+          "units": 4,
+          "due_ms": 8180
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 52,
+          "units": 4,
+          "due_ms": 8865
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 56,
+          "units": 8,
+          "due_ms": 9545
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 64,
+          "units": 2,
+          "due_ms": 10910
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 66,
+          "units": 2,
+          "due_ms": 11250
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 68,
+          "units": 2,
+          "due_ms": 11590
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 70,
+          "units": 2,
+          "due_ms": 11930
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 72,
+          "units": 4,
+          "due_ms": 12275
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 76,
+          "units": 4,
+          "due_ms": 12955
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 80,
+          "units": 2,
+          "due_ms": 13635
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 82,
+          "units": 2,
+          "due_ms": 13975
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 84,
+          "units": 2,
+          "due_ms": 14320
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 86,
+          "units": 2,
+          "due_ms": 14660
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 88,
+          "units": 4,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 92,
+          "units": 4,
+          "due_ms": 15680
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 16365
+        },
+        {
+          "pitch": 55,
+          "degree": 5,
+          "onset_units": 100,
+          "units": 4,
+          "due_ms": 17045
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 104,
+          "units": 8,
+          "due_ms": 17725
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 112,
+          "units": 4,
+          "due_ms": 19090
+        },
+        {
+          "pitch": 55,
+          "degree": 5,
+          "onset_units": 116,
+          "units": 4,
+          "due_ms": 19775
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 120,
+          "units": 7,
+          "due_ms": 20455
+        }
+      ],
+      "notes": 32,
+      "end_ms": 21650,
+      "units": 127,
+      "pass_score": 60,
+      "min_pitch": 55,
+      "max_pitch": 69,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "vi",
+        "IV",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "2256cd47f94ef687b1c48d627c9e33c1c8e6093ecadbb63400939986f92f2005",
+        "dump_sha256": "54a9d16b783f87d3eb0d404376934eb7b46017c5d7b42e3b2bda123b716e766e",
+        "selected_track": 0,
+        "section_first_beat": 0.0,
+        "selected_notes": 32,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 2,
+      "level": 0,
+      "title": "铃儿响叮当",
+      "bpm": 88,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 0,
+          "units": 4,
+          "due_ms": 0
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 4,
+          "units": 4,
+          "due_ms": 680
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 8,
+          "units": 8,
+          "due_ms": 1365
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 2725
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 20,
+          "units": 4,
+          "due_ms": 3410
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 24,
+          "units": 8,
+          "due_ms": 4090
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 5455
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 36,
+          "units": 4,
+          "due_ms": 6135
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 40,
+          "units": 6,
+          "due_ms": 6820
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 46,
+          "units": 2,
+          "due_ms": 7840
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 48,
+          "units": 16,
+          "due_ms": 8180
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 10910
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 68,
+          "units": 4,
+          "due_ms": 11590
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 72,
+          "units": 6,
+          "due_ms": 12275
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 13295
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 13635
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 84,
+          "units": 4,
+          "due_ms": 14320
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 88,
+          "units": 2,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 90,
+          "units": 2,
+          "due_ms": 15340
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 92,
+          "units": 4,
+          "due_ms": 15680
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 16365
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 100,
+          "units": 4,
+          "due_ms": 17045
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 104,
+          "units": 4,
+          "due_ms": 17725
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 108,
+          "units": 4,
+          "due_ms": 18410
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 112,
+          "units": 8,
+          "due_ms": 19090
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 120,
+          "units": 8,
+          "due_ms": 20455
+        }
+      ],
+      "notes": 26,
+      "end_ms": 21820,
+      "units": 128,
+      "pass_score": 60,
+      "min_pitch": 60,
+      "max_pitch": 67,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "I",
+        "I",
+        "I",
+        "IV",
+        "I",
+        "V",
+        "V"
+      ],
+      "source": {
+        "kind": "self-prepared practice arrangement of familiar public melody"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 3,
+      "level": 0,
+      "title": "生日快乐",
+      "bpm": 84,
+      "beats_per_bar": 3,
+      "events": [
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 2,
+          "units": 2,
+          "due_ms": 355
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 4,
+          "units": 4,
+          "due_ms": 715
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 8,
+          "units": 4,
+          "due_ms": 1430
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 12,
+          "units": 4,
+          "due_ms": 2145
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 16,
+          "units": 8,
+          "due_ms": 2855
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 24,
+          "units": 2,
+          "due_ms": 4285
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 26,
+          "units": 2,
+          "due_ms": 4645
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 28,
+          "units": 4,
+          "due_ms": 5000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 5715
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 36,
+          "units": 4,
+          "due_ms": 6430
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 40,
+          "units": 8,
+          "due_ms": 7145
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 48,
+          "units": 2,
+          "due_ms": 8570
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 50,
+          "units": 2,
+          "due_ms": 8930
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 52,
+          "units": 4,
+          "due_ms": 9285
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 56,
+          "units": 4,
+          "due_ms": 10000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 60,
+          "units": 4,
+          "due_ms": 10715
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 11430
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 68,
+          "units": 8,
+          "due_ms": 12145
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 13570
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 13930
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 14285
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 84,
+          "units": 4,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 88,
+          "units": 4,
+          "due_ms": 15715
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 92,
+          "units": 8,
+          "due_ms": 16430
+        }
+      ],
+      "notes": 25,
+      "end_ms": 17855,
+      "units": 100,
+      "pass_score": 60,
+      "min_pitch": 67,
+      "max_pitch": 79,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "V",
+        "V",
+        "I",
+        "I",
+        "IV",
+        "I",
+        "V"
+      ],
+      "source": {
+        "kind": "self-prepared practice arrangement of familiar public melody"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 4,
+      "level": 0,
+      "title": "欢乐颂",
+      "bpm": 90,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 0,
+          "units": 4,
+          "due_ms": 0
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 4,
+          "units": 4,
+          "due_ms": 665
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 8,
+          "units": 4,
+          "due_ms": 1335
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 12,
+          "units": 4,
+          "due_ms": 2000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 2665
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 20,
+          "units": 4,
+          "due_ms": 3335
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 24,
+          "units": 4,
+          "due_ms": 4000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 28,
+          "units": 4,
+          "due_ms": 4665
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 5335
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 36,
+          "units": 4,
+          "due_ms": 6000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 40,
+          "units": 4,
+          "due_ms": 6665
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 44,
+          "units": 4,
+          "due_ms": 7335
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 48,
+          "units": 6,
+          "due_ms": 8000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 54,
+          "units": 2,
+          "due_ms": 9000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 56,
+          "units": 8,
+          "due_ms": 9335
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 10665
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 68,
+          "units": 4,
+          "due_ms": 11335
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 72,
+          "units": 4,
+          "due_ms": 12000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 76,
+          "units": 4,
+          "due_ms": 12665
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 13335
+        },
+        {
+          "pitch": 65,
+          "degree": 4,
+          "onset_units": 84,
+          "units": 4,
+          "due_ms": 14000
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 88,
+          "units": 4,
+          "due_ms": 14665
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 92,
+          "units": 4,
+          "due_ms": 15335
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 16000
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 100,
+          "units": 4,
+          "due_ms": 16665
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 104,
+          "units": 4,
+          "due_ms": 17335
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 108,
+          "units": 4,
+          "due_ms": 18000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 112,
+          "units": 6,
+          "due_ms": 18665
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 118,
+          "units": 2,
+          "due_ms": 19665
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 120,
+          "units": 8,
+          "due_ms": 20000
+        }
+      ],
+      "notes": 30,
+      "end_ms": 21335,
+      "units": 128,
+      "pass_score": 60,
+      "min_pitch": 60,
+      "max_pitch": 67,
+      "tonic": 0,
+      "chords": [
+        "C",
+        "G",
+        "C",
+        "G",
+        "C",
+        "G",
+        "G",
+        "C"
+      ],
+      "source": {
+        "kind": "preserved previous three-song challenge",
+        "urls": [
+          "https://www.mutopiaproject.org/ftp/BeethovenLv/ode/ode-let.pdf"
+        ]
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 5,
+      "level": 1,
+      "title": "茉莉花",
+      "bpm": 100,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 0,
+          "units": 4,
+          "due_ms": 0
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 4,
+          "units": 2,
+          "due_ms": 600
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 6,
+          "units": 2,
+          "due_ms": 900
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 8,
+          "units": 2,
+          "due_ms": 1200
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 10,
+          "units": 2,
+          "due_ms": 1500
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 12,
+          "units": 2,
+          "due_ms": 1800
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 14,
+          "units": 2,
+          "due_ms": 2100
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 2400
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 20,
+          "units": 2,
+          "due_ms": 3000
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 22,
+          "units": 2,
+          "due_ms": 3300
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 24,
+          "units": 4,
+          "due_ms": 3600
+        },
+        {
+          "pitch": 0,
+          "degree": 0,
+          "onset_units": 28,
+          "units": 4,
+          "due_ms": 4200
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 4800
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 36,
+          "units": 2,
+          "due_ms": 5400
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 38,
+          "units": 2,
+          "due_ms": 5700
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 40,
+          "units": 2,
+          "due_ms": 6000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 42,
+          "units": 2,
+          "due_ms": 6300
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 44,
+          "units": 2,
+          "due_ms": 6600
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 46,
+          "units": 2,
+          "due_ms": 6900
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 48,
+          "units": 4,
+          "due_ms": 7200
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 52,
+          "units": 2,
+          "due_ms": 7800
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 54,
+          "units": 2,
+          "due_ms": 8100
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 56,
+          "units": 4,
+          "due_ms": 8400
+        },
+        {
+          "pitch": 0,
+          "degree": 0,
+          "onset_units": 60,
+          "units": 4,
+          "due_ms": 9000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 9600
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 68,
+          "units": 4,
+          "due_ms": 10200
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 72,
+          "units": 4,
+          "due_ms": 10800
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 11400
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 11700
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 12000
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 84,
+          "units": 4,
+          "due_ms": 12600
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 88,
+          "units": 8,
+          "due_ms": 13200
+        }
+      ],
+      "notes": 30,
+      "end_ms": 14400,
+      "units": 96,
+      "pass_score": 70,
+      "min_pitch": 64,
+      "max_pitch": 72,
+      "tonic": 0,
+      "chords": [
+        "C",
+        "C",
+        "G",
+        "C",
+        "C",
+        "G",
+        "C",
+        "G"
+      ],
+      "source": {
+        "kind": "preserved previous three-song challenge",
+        "urls": [
+          "https://commons.wikimedia.org/wiki/File:Jasmine_barrow.svg"
+        ]
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 6,
+      "level": 1,
+      "title": "月亮代表我的心",
+      "bpm": 70,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 0,
+          "units": 10,
+          "due_ms": 0
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 10,
+          "units": 2,
+          "due_ms": 2145
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 12,
+          "units": 2,
+          "due_ms": 2570
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 14,
+          "units": 2,
+          "due_ms": 3000
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 16,
+          "units": 10,
+          "due_ms": 3430
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 26,
+          "units": 2,
+          "due_ms": 5570
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 28,
+          "units": 2,
+          "due_ms": 6000
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 30,
+          "units": 2,
+          "due_ms": 6430
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 32,
+          "units": 10,
+          "due_ms": 6855
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 42,
+          "units": 2,
+          "due_ms": 9000
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 44,
+          "units": 2,
+          "due_ms": 9430
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 46,
+          "units": 2,
+          "due_ms": 9855
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 48,
+          "units": 14,
+          "due_ms": 10285
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 62,
+          "units": 2,
+          "due_ms": 13285
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 64,
+          "units": 6,
+          "due_ms": 13715
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 70,
+          "units": 2,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 72,
+          "units": 6,
+          "due_ms": 15430
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 16715
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 80,
+          "units": 6,
+          "due_ms": 17145
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 86,
+          "units": 2,
+          "due_ms": 18430
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 88,
+          "units": 6,
+          "due_ms": 18855
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 94,
+          "units": 2,
+          "due_ms": 20145
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 96,
+          "units": 6,
+          "due_ms": 20570
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 102,
+          "units": 2,
+          "due_ms": 21855
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 104,
+          "units": 4,
+          "due_ms": 22285
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 108,
+          "units": 4,
+          "due_ms": 23145
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 112,
+          "units": 12,
+          "due_ms": 24000
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 124,
+          "units": 2,
+          "due_ms": 26570
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 126,
+          "units": 2,
+          "due_ms": 27000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 128,
+          "units": 6,
+          "due_ms": 27430
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 134,
+          "units": 2,
+          "due_ms": 28715
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 136,
+          "units": 4,
+          "due_ms": 29145
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 140,
+          "units": 2,
+          "due_ms": 30000
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 142,
+          "units": 2,
+          "due_ms": 30430
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 144,
+          "units": 6,
+          "due_ms": 30855
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 150,
+          "units": 2,
+          "due_ms": 32145
+        }
+      ],
+      "notes": 36,
+      "end_ms": 32570,
+      "units": 152,
+      "pass_score": 70,
+      "min_pitch": 67,
+      "max_pitch": 84,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "vi",
+        "IV",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "35e24940ab36c952b548fa9b36b1e01cb4d8ffbf2a1e288e79addc0021b88dc6",
+        "dump_sha256": "781875069830da1b79edba8f20a14d471aa7ae041728c259ac0538315be39778",
+        "selected_track": 0,
+        "section_first_beat": 0.0,
+        "selected_notes": 36,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "title": "甜蜜蜜",
+      "bpm": 63,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 2,
+          "units": 1,
+          "due_ms": 475
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 3,
+          "units": 1,
+          "due_ms": 715
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 4,
+          "units": 2,
+          "due_ms": 950
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 6,
+          "units": 1,
+          "due_ms": 1430
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 7,
+          "units": 1,
+          "due_ms": 1665
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 8,
+          "units": 4,
+          "due_ms": 1905
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 12,
+          "units": 2,
+          "due_ms": 2855
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 14,
+          "units": 1,
+          "due_ms": 3335
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 15,
+          "units": 1,
+          "due_ms": 3570
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 3810
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 20,
+          "units": 4,
+          "due_ms": 4760
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 24,
+          "units": 3,
+          "due_ms": 5715
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 27,
+          "units": 1,
+          "due_ms": 6430
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 28,
+          "units": 6,
+          "due_ms": 6665
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 34,
+          "units": 2,
+          "due_ms": 8095
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 36,
+          "units": 3,
+          "due_ms": 8570
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 39,
+          "units": 1,
+          "due_ms": 9285
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 40,
+          "units": 2,
+          "due_ms": 9525
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 42,
+          "units": 1,
+          "due_ms": 10000
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 43,
+          "units": 1,
+          "due_ms": 10240
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 44,
+          "units": 8,
+          "due_ms": 10475
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 52,
+          "units": 2,
+          "due_ms": 12380
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 54,
+          "units": 2,
+          "due_ms": 12855
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 56,
+          "units": 2,
+          "due_ms": 13335
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 58,
+          "units": 1,
+          "due_ms": 13810
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 59,
+          "units": 1,
+          "due_ms": 14050
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 60,
+          "units": 2,
+          "due_ms": 14285
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 62,
+          "units": 2,
+          "due_ms": 14760
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 64,
+          "units": 2,
+          "due_ms": 15240
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 66,
+          "units": 1,
+          "due_ms": 15715
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 67,
+          "units": 1,
+          "due_ms": 15950
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 68,
+          "units": 6,
+          "due_ms": 16190
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 74,
+          "units": 2,
+          "due_ms": 17620
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 76,
+          "units": 3,
+          "due_ms": 18095
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 79,
+          "units": 1,
+          "due_ms": 18810
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 80,
+          "units": 1,
+          "due_ms": 19050
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 81,
+          "units": 1,
+          "due_ms": 19285
+        },
+        {
+          "pitch": 78,
+          "degree": 4,
+          "onset_units": 82,
+          "units": 1,
+          "due_ms": 19525
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 83,
+          "units": 2,
+          "due_ms": 19760
+        }
+      ],
+      "notes": 40,
+      "end_ms": 20240,
+      "units": 85,
+      "pass_score": 70,
+      "min_pitch": 69,
+      "max_pitch": 83,
+      "tonic": 2,
+      "chords": [
+        "I",
+        "vi",
+        "IV",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "61b59dd221d2304f060898a0ad91f8ba9a3d7d2bbc7016da3fea3bc9e38624fb",
+        "dump_sha256": "43bf9524c575438e809f8556c59331b536f2561862828385f9527ccfa55267f2",
+        "selected_track": 0,
+        "section_first_beat": 4.999995,
+        "selected_notes": 40,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 8,
+      "level": 1,
+      "title": "送别",
+      "bpm": 96,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 0,
+          "units": 4,
+          "due_ms": 0
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 4,
+          "units": 2,
+          "due_ms": 625
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 6,
+          "units": 2,
+          "due_ms": 940
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 8,
+          "units": 8,
+          "due_ms": 1250
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 16,
+          "units": 4,
+          "due_ms": 2500
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 20,
+          "units": 4,
+          "due_ms": 3125
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 24,
+          "units": 8,
+          "due_ms": 3750
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 32,
+          "units": 4,
+          "due_ms": 5000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 36,
+          "units": 2,
+          "due_ms": 5625
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 38,
+          "units": 2,
+          "due_ms": 5940
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 40,
+          "units": 4,
+          "due_ms": 6250
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 44,
+          "units": 2,
+          "due_ms": 6875
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 46,
+          "units": 2,
+          "due_ms": 7190
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 48,
+          "units": 16,
+          "due_ms": 7500
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 10000
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 68,
+          "units": 2,
+          "due_ms": 10625
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 70,
+          "units": 2,
+          "due_ms": 10940
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 72,
+          "units": 6,
+          "due_ms": 11250
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 12190
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 12500
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 84,
+          "units": 4,
+          "due_ms": 13125
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 88,
+          "units": 8,
+          "due_ms": 13750
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 100,
+          "units": 2,
+          "due_ms": 15625
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 102,
+          "units": 2,
+          "due_ms": 15940
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 104,
+          "units": 6,
+          "due_ms": 16250
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 110,
+          "units": 2,
+          "due_ms": 17190
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 112,
+          "units": 16,
+          "due_ms": 17500
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 128,
+          "units": 4,
+          "due_ms": 20000
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 132,
+          "units": 4,
+          "due_ms": 20625
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 136,
+          "units": 8,
+          "due_ms": 21250
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 144,
+          "units": 4,
+          "due_ms": 22500
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 148,
+          "units": 2,
+          "due_ms": 23125
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 150,
+          "units": 2,
+          "due_ms": 23440
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 152,
+          "units": 7,
+          "due_ms": 23750
+        }
+      ],
+      "notes": 35,
+      "end_ms": 24845,
+      "units": 159,
+      "pass_score": 70,
+      "min_pitch": 71,
+      "max_pitch": 84,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "vi",
+        "IV",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658",
+        "dump_sha256": "9d9b634eaad5e3395c095f5cdd68966cebcec4f0d11bd2db401ab65680bdfa01",
+        "selected_track": 0,
+        "section_first_beat": 0.0,
+        "selected_notes": 35,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 9,
+      "level": 1,
+      "title": "童话",
+      "bpm": 72,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 0,
+          "units": 12,
+          "due_ms": 0
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 12,
+          "units": 3,
+          "due_ms": 2500
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 15,
+          "units": 1,
+          "due_ms": 3125
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 16,
+          "units": 3,
+          "due_ms": 3335
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 19,
+          "units": 9,
+          "due_ms": 3960
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 28,
+          "units": 3,
+          "due_ms": 5835
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 31,
+          "units": 1,
+          "due_ms": 6460
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 32,
+          "units": 3,
+          "due_ms": 6665
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 35,
+          "units": 9,
+          "due_ms": 7290
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 44,
+          "units": 3,
+          "due_ms": 9165
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 47,
+          "units": 1,
+          "due_ms": 9790
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 48,
+          "units": 10,
+          "due_ms": 10000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 58,
+          "units": 2,
+          "due_ms": 12085
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 60,
+          "units": 2,
+          "due_ms": 12500
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 62,
+          "units": 2,
+          "due_ms": 12915
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 64,
+          "units": 4,
+          "due_ms": 13335
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 68,
+          "units": 6,
+          "due_ms": 14165
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 74,
+          "units": 2,
+          "due_ms": 15415
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 15835
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 16250
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 80,
+          "units": 4,
+          "due_ms": 16665
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 84,
+          "units": 6,
+          "due_ms": 17500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 90,
+          "units": 2,
+          "due_ms": 18750
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 92,
+          "units": 2,
+          "due_ms": 19165
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 94,
+          "units": 2,
+          "due_ms": 19585
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 96,
+          "units": 6,
+          "due_ms": 20000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 102,
+          "units": 2,
+          "due_ms": 21250
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 104,
+          "units": 2,
+          "due_ms": 21665
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 106,
+          "units": 2,
+          "due_ms": 22085
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 108,
+          "units": 2,
+          "due_ms": 22500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 110,
+          "units": 12,
+          "due_ms": 22915
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 122,
+          "units": 2,
+          "due_ms": 25415
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 124,
+          "units": 2,
+          "due_ms": 25835
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 126,
+          "units": 2,
+          "due_ms": 26250
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 128,
+          "units": 4,
+          "due_ms": 26665
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 132,
+          "units": 6,
+          "due_ms": 27500
+        }
+      ],
+      "notes": 36,
+      "end_ms": 28750,
+      "units": 138,
+      "pass_score": 70,
+      "min_pitch": 67,
+      "max_pitch": 76,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "vi",
+        "IV",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "00e1f8be70a607884ceeca5fd68c531527443e5fe819f9656216c8e64d5c2a21",
+        "dump_sha256": "b4e8af8a21684b4c8d5717eae8e36b4dca7d4ddb29a76cafd83c0f3330db5aff",
+        "selected_track": 0,
+        "section_first_beat": 0.0,
+        "selected_notes": 36,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 10,
+      "level": 2,
+      "title": "晴天",
+      "bpm": 68,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 2,
+          "units": 2,
+          "due_ms": 440
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 4,
+          "units": 4,
+          "due_ms": 880
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 8,
+          "units": 2,
+          "due_ms": 1765
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 10,
+          "units": 4,
+          "due_ms": 2205
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 14,
+          "units": 2,
+          "due_ms": 3090
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 16,
+          "units": 2,
+          "due_ms": 3530
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 18,
+          "units": 2,
+          "due_ms": 3970
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 20,
+          "units": 2,
+          "due_ms": 4410
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 22,
+          "units": 1,
+          "due_ms": 4855
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 23,
+          "units": 1,
+          "due_ms": 5075
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 24,
+          "units": 1,
+          "due_ms": 5295
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 25,
+          "units": 1,
+          "due_ms": 5515
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 26,
+          "units": 4,
+          "due_ms": 5735
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 30,
+          "units": 2,
+          "due_ms": 6620
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 32,
+          "units": 2,
+          "due_ms": 7060
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 34,
+          "units": 2,
+          "due_ms": 7500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 36,
+          "units": 4,
+          "due_ms": 7940
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 40,
+          "units": 2,
+          "due_ms": 8825
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 42,
+          "units": 4,
+          "due_ms": 9265
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 46,
+          "units": 4,
+          "due_ms": 10145
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 50,
+          "units": 1,
+          "due_ms": 11030
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 51,
+          "units": 1,
+          "due_ms": 11250
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 52,
+          "units": 1,
+          "due_ms": 11470
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 53,
+          "units": 1,
+          "due_ms": 11690
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 54,
+          "units": 1,
+          "due_ms": 11910
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 55,
+          "units": 1,
+          "due_ms": 12130
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 56,
+          "units": 1,
+          "due_ms": 12355
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 57,
+          "units": 1,
+          "due_ms": 12575
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 58,
+          "units": 2,
+          "due_ms": 12795
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 60,
+          "units": 2,
+          "due_ms": 13235
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 62,
+          "units": 2,
+          "due_ms": 13675
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 64,
+          "units": 2,
+          "due_ms": 14120
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 66,
+          "units": 2,
+          "due_ms": 14560
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 68,
+          "units": 2,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 70,
+          "units": 2,
+          "due_ms": 15440
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 72,
+          "units": 2,
+          "due_ms": 15880
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 74,
+          "units": 1,
+          "due_ms": 16325
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 75,
+          "units": 1,
+          "due_ms": 16545
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 16765
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 17205
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 80,
+          "units": 2,
+          "due_ms": 17645
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 82,
+          "units": 2,
+          "due_ms": 18090
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 84,
+          "units": 1,
+          "due_ms": 18530
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 85,
+          "units": 1,
+          "due_ms": 18750
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 86,
+          "units": 2,
+          "due_ms": 18970
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 88,
+          "units": 4,
+          "due_ms": 19410
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 92,
+          "units": 2,
+          "due_ms": 20295
+        }
+      ],
+      "notes": 48,
+      "end_ms": 20735,
+      "units": 94,
+      "pass_score": 80,
+      "min_pitch": 62,
+      "max_pitch": 74,
+      "tonic": 7,
+      "chords": [
+        "I",
+        "V",
+        "vi",
+        "IV"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "ca8f7a27b21b408f7721862062b80f1da2cd8c37127fa9805e510bc53c317489",
+        "dump_sha256": "5c735ef612f9aba206b385bbdf17b7b9b09bfa523c61e724463a9d21f2cecc90",
+        "selected_track": 0,
+        "section_first_beat": 32.9999648,
+        "selected_notes": 48,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 11,
+      "level": 2,
+      "title": "稻香",
+      "bpm": 82,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 0,
+          "units": 1,
+          "due_ms": 0
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 1,
+          "units": 1,
+          "due_ms": 185
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 2,
+          "units": 1,
+          "due_ms": 365
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 3,
+          "units": 3,
+          "due_ms": 550
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 6,
+          "units": 3,
+          "due_ms": 1100
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 9,
+          "units": 2,
+          "due_ms": 1645
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 11,
+          "units": 1,
+          "due_ms": 2010
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 12,
+          "units": 1,
+          "due_ms": 2195
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 13,
+          "units": 1,
+          "due_ms": 2380
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 14,
+          "units": 1,
+          "due_ms": 2560
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 15,
+          "units": 2,
+          "due_ms": 2745
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 17,
+          "units": 2,
+          "due_ms": 3110
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 19,
+          "units": 2,
+          "due_ms": 3475
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 21,
+          "units": 1,
+          "due_ms": 3840
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 22,
+          "units": 3,
+          "due_ms": 4025
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 25,
+          "units": 2,
+          "due_ms": 4575
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 27,
+          "units": 1,
+          "due_ms": 4940
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 28,
+          "units": 1,
+          "due_ms": 5120
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 29,
+          "units": 1,
+          "due_ms": 5305
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 30,
+          "units": 1,
+          "due_ms": 5490
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 31,
+          "units": 2,
+          "due_ms": 5670
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 33,
+          "units": 2,
+          "due_ms": 6035
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 35,
+          "units": 3,
+          "due_ms": 6400
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 38,
+          "units": 3,
+          "due_ms": 6950
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 41,
+          "units": 2,
+          "due_ms": 7500
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 43,
+          "units": 1,
+          "due_ms": 7865
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 44,
+          "units": 1,
+          "due_ms": 8050
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 45,
+          "units": 1,
+          "due_ms": 8230
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 46,
+          "units": 1,
+          "due_ms": 8415
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 47,
+          "units": 2,
+          "due_ms": 8600
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 49,
+          "units": 2,
+          "due_ms": 8965
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 51,
+          "units": 7,
+          "due_ms": 9330
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 58,
+          "units": 2,
+          "due_ms": 10610
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 60,
+          "units": 1,
+          "due_ms": 10975
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 61,
+          "units": 1,
+          "due_ms": 11160
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 62,
+          "units": 1,
+          "due_ms": 11340
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 63,
+          "units": 1,
+          "due_ms": 11525
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 64,
+          "units": 1,
+          "due_ms": 11705
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 65,
+          "units": 1,
+          "due_ms": 11890
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 66,
+          "units": 1,
+          "due_ms": 12075
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 67,
+          "units": 2,
+          "due_ms": 12255
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 69,
+          "units": 1,
+          "due_ms": 12620
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 70,
+          "units": 1,
+          "due_ms": 12805
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 71,
+          "units": 2,
+          "due_ms": 12990
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 73,
+          "units": 1,
+          "due_ms": 13355
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 74,
+          "units": 1,
+          "due_ms": 13535
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 75,
+          "units": 1,
+          "due_ms": 13720
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 13900
+        }
+      ],
+      "notes": 48,
+      "end_ms": 14270,
+      "units": 78,
+      "pass_score": 80,
+      "min_pitch": 69,
+      "max_pitch": 76,
+      "tonic": 0,
+      "chords": [
+        "I",
+        "vi",
+        "IV",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "65558e3d6b40e4925eae9360268b4099b76bcdc48c972de79f7db24ad00b0c7d",
+        "dump_sha256": "d1e79c61531f2aa1447c4c6c736a834c5863555caddf1db134c3e5ef65964ed4",
+        "selected_track": 0,
+        "section_first_beat": 3.249998592,
+        "selected_notes": 48,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 12,
+      "level": 2,
+      "title": "告白气球",
+      "bpm": 90,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 2,
+          "units": 4,
+          "due_ms": 335
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 6,
+          "units": 2,
+          "due_ms": 1000
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 8,
+          "units": 2,
+          "due_ms": 1335
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 10,
+          "units": 8,
+          "due_ms": 1665
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 18,
+          "units": 2,
+          "due_ms": 3000
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 20,
+          "units": 2,
+          "due_ms": 3335
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 22,
+          "units": 2,
+          "due_ms": 3665
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 24,
+          "units": 2,
+          "due_ms": 4000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 26,
+          "units": 6,
+          "due_ms": 4335
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 32,
+          "units": 2,
+          "due_ms": 5335
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 34,
+          "units": 4,
+          "due_ms": 5665
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 38,
+          "units": 2,
+          "due_ms": 6335
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 40,
+          "units": 2,
+          "due_ms": 6665
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 42,
+          "units": 8,
+          "due_ms": 7000
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 50,
+          "units": 2,
+          "due_ms": 8335
+        },
+        {
+          "pitch": 86,
+          "degree": 2,
+          "onset_units": 52,
+          "units": 2,
+          "due_ms": 8665
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 54,
+          "units": 2,
+          "due_ms": 9000
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 56,
+          "units": 2,
+          "due_ms": 9335
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 58,
+          "units": 6,
+          "due_ms": 9665
+        },
+        {
+          "pitch": 86,
+          "degree": 2,
+          "onset_units": 64,
+          "units": 2,
+          "due_ms": 10665
+        },
+        {
+          "pitch": 88,
+          "degree": 3,
+          "onset_units": 66,
+          "units": 4,
+          "due_ms": 11000
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 70,
+          "units": 4,
+          "due_ms": 11665
+        },
+        {
+          "pitch": 81,
+          "degree": 6,
+          "onset_units": 74,
+          "units": 6,
+          "due_ms": 12335
+        },
+        {
+          "pitch": 83,
+          "degree": 7,
+          "onset_units": 80,
+          "units": 2,
+          "due_ms": 13335
+        },
+        {
+          "pitch": 84,
+          "degree": 1,
+          "onset_units": 82,
+          "units": 6,
+          "due_ms": 13665
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 88,
+          "units": 4,
+          "due_ms": 14665
+        },
+        {
+          "pitch": 79,
+          "degree": 5,
+          "onset_units": 92,
+          "units": 2,
+          "due_ms": 15335
+        },
+        {
+          "pitch": 77,
+          "degree": 4,
+          "onset_units": 94,
+          "units": 2,
+          "due_ms": 15665
+        },
+        {
+          "pitch": 76,
+          "degree": 3,
+          "onset_units": 96,
+          "units": 2,
+          "due_ms": 16000
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 98,
+          "units": 6,
+          "due_ms": 16335
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 104,
+          "units": 4,
+          "due_ms": 17335
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 108,
+          "units": 6,
+          "due_ms": 18000
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 114,
+          "units": 11,
+          "due_ms": 19000
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 125,
+          "units": 1,
+          "due_ms": 20835
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 126,
+          "units": 1,
+          "due_ms": 21000
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 127,
+          "units": 1,
+          "due_ms": 21165
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 128,
+          "units": 2,
+          "due_ms": 21335
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 130,
+          "units": 2,
+          "due_ms": 21665
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 132,
+          "units": 1,
+          "due_ms": 22000
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 133,
+          "units": 1,
+          "due_ms": 22165
+        },
+        {
+          "pitch": 72,
+          "degree": 1,
+          "onset_units": 134,
+          "units": 4,
+          "due_ms": 22335
+        },
+        {
+          "pitch": 74,
+          "degree": 2,
+          "onset_units": 138,
+          "units": 3,
+          "due_ms": 23000
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 141,
+          "units": 1,
+          "due_ms": 23500
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 142,
+          "units": 1,
+          "due_ms": 23665
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 143,
+          "units": 1,
+          "due_ms": 23835
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 144,
+          "units": 2,
+          "due_ms": 24000
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 146,
+          "units": 2,
+          "due_ms": 24335
+        }
+      ],
+      "notes": 48,
+      "end_ms": 24665,
+      "units": 148,
+      "pass_score": 80,
+      "min_pitch": 69,
+      "max_pitch": 88,
+      "tonic": 0,
+      "chords": [
+        "IV",
+        "V",
+        "I",
+        "vi"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "94af6c80490318e2ddffb9eaab5e06240df7413211a65712bf283fd3afaea391",
+        "dump_sha256": "f590048e1edcd0fc5742939e82973c6e925874bfb5c53c5e714195529465415f",
+        "selected_track": 0,
+        "section_first_beat": 0.999999,
+        "selected_notes": 48,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 13,
+      "level": 2,
+      "title": "孤勇者",
+      "bpm": 132,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 2,
+          "units": 6,
+          "due_ms": 225
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 8,
+          "units": 2,
+          "due_ms": 910
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 10,
+          "units": 2,
+          "due_ms": 1135
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 12,
+          "units": 2,
+          "due_ms": 1365
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 14,
+          "units": 4,
+          "due_ms": 1590
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 18,
+          "units": 2,
+          "due_ms": 2045
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 20,
+          "units": 2,
+          "due_ms": 2275
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 22,
+          "units": 2,
+          "due_ms": 2500
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 24,
+          "units": 2,
+          "due_ms": 2725
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 26,
+          "units": 2,
+          "due_ms": 2955
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 28,
+          "units": 4,
+          "due_ms": 3180
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 32,
+          "units": 8,
+          "due_ms": 3635
+        },
+        {
+          "pitch": 0,
+          "degree": 0,
+          "onset_units": 40,
+          "units": 16,
+          "due_ms": 4545
+        },
+        {
+          "pitch": 0,
+          "degree": 0,
+          "onset_units": 56,
+          "units": 2,
+          "due_ms": 6365
+        },
+        {
+          "pitch": 57,
+          "degree": 6,
+          "onset_units": 58,
+          "units": 2,
+          "due_ms": 6590
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 60,
+          "units": 2,
+          "due_ms": 6820
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 62,
+          "units": 6,
+          "due_ms": 7045
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 68,
+          "units": 2,
+          "due_ms": 7725
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 70,
+          "units": 2,
+          "due_ms": 7955
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 72,
+          "units": 2,
+          "due_ms": 8180
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 74,
+          "units": 2,
+          "due_ms": 8410
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 8635
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 78,
+          "units": 6,
+          "due_ms": 8865
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 84,
+          "units": 2,
+          "due_ms": 9545
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 86,
+          "units": 2,
+          "due_ms": 9775
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 88,
+          "units": 2,
+          "due_ms": 10000
+        },
+        {
+          "pitch": 71,
+          "degree": 7,
+          "onset_units": 90,
+          "units": 6,
+          "due_ms": 10225
+        },
+        {
+          "pitch": 69,
+          "degree": 6,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 10910
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 100,
+          "units": 8,
+          "due_ms": 11365
+        },
+        {
+          "pitch": 0,
+          "degree": 0,
+          "onset_units": 108,
+          "units": 12,
+          "due_ms": 12275
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 120,
+          "units": 2,
+          "due_ms": 13635
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 122,
+          "units": 2,
+          "due_ms": 13865
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 124,
+          "units": 2,
+          "due_ms": 14090
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 126,
+          "units": 6,
+          "due_ms": 14320
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 132,
+          "units": 2,
+          "due_ms": 15000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 134,
+          "units": 6,
+          "due_ms": 15225
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 140,
+          "units": 2,
+          "due_ms": 15910
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 142,
+          "units": 6,
+          "due_ms": 16135
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 148,
+          "units": 2,
+          "due_ms": 16820
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 150,
+          "units": 2,
+          "due_ms": 17045
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 152,
+          "units": 2,
+          "due_ms": 17275
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 154,
+          "units": 2,
+          "due_ms": 17500
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 156,
+          "units": 2,
+          "due_ms": 17725
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 158,
+          "units": 6,
+          "due_ms": 17955
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 164,
+          "units": 2,
+          "due_ms": 18635
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 166,
+          "units": 6,
+          "due_ms": 18865
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 172,
+          "units": 2,
+          "due_ms": 19545
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 174,
+          "units": 12,
+          "due_ms": 19775
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 186,
+          "units": 2,
+          "due_ms": 21135
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 188,
+          "units": 2,
+          "due_ms": 21365
+        }
+      ],
+      "notes": 48,
+      "end_ms": 21590,
+      "units": 190,
+      "pass_score": 80,
+      "min_pitch": 57,
+      "max_pitch": 71,
+      "tonic": 0,
+      "chords": [
+        "vi",
+        "IV",
+        "I",
+        "V"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "8f4fdd46e915fe3fe38b33ed869d961cf129fc038ed1d19695b7b822945602ef",
+        "dump_sha256": "c472af2827d1da0209bb23183fb3f37050b3c6c567ce71e8ff6985fb47d68d28",
+        "selected_track": 0,
+        "section_first_beat": 80.4999195,
+        "selected_notes": 48,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    },
+    {
+      "id": 14,
+      "level": 2,
+      "title": "起风了",
+      "bpm": 75,
+      "beats_per_bar": 4,
+      "events": [
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 0,
+          "units": 3,
+          "due_ms": 0
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 3,
+          "units": 1,
+          "due_ms": 600
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 4,
+          "units": 3,
+          "due_ms": 800
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 7,
+          "units": 1,
+          "due_ms": 1400
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 8,
+          "units": 2,
+          "due_ms": 1600
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 10,
+          "units": 2,
+          "due_ms": 2000
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 12,
+          "units": 2,
+          "due_ms": 2400
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 14,
+          "units": 2,
+          "due_ms": 2800
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 16,
+          "units": 3,
+          "due_ms": 3200
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 19,
+          "units": 1,
+          "due_ms": 3800
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 20,
+          "units": 3,
+          "due_ms": 4000
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 23,
+          "units": 1,
+          "due_ms": 4600
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 24,
+          "units": 1,
+          "due_ms": 4800
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 25,
+          "units": 1,
+          "due_ms": 5000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 26,
+          "units": 1,
+          "due_ms": 5200
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 27,
+          "units": 1,
+          "due_ms": 5400
+        },
+        {
+          "pitch": 55,
+          "degree": 5,
+          "onset_units": 28,
+          "units": 4,
+          "due_ms": 5600
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 32,
+          "units": 3,
+          "due_ms": 6400
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 35,
+          "units": 1,
+          "due_ms": 7000
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 36,
+          "units": 3,
+          "due_ms": 7200
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 39,
+          "units": 1,
+          "due_ms": 7800
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 40,
+          "units": 2,
+          "due_ms": 8000
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 42,
+          "units": 2,
+          "due_ms": 8400
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 44,
+          "units": 2,
+          "due_ms": 8800
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 46,
+          "units": 2,
+          "due_ms": 9200
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 48,
+          "units": 3,
+          "due_ms": 9600
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 51,
+          "units": 1,
+          "due_ms": 10200
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 52,
+          "units": 2,
+          "due_ms": 10400
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 54,
+          "units": 2,
+          "due_ms": 10800
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 56,
+          "units": 8,
+          "due_ms": 11200
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 64,
+          "units": 3,
+          "due_ms": 12800
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 67,
+          "units": 1,
+          "due_ms": 13400
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 68,
+          "units": 3,
+          "due_ms": 13600
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 71,
+          "units": 1,
+          "due_ms": 14200
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 72,
+          "units": 2,
+          "due_ms": 14400
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 74,
+          "units": 2,
+          "due_ms": 14800
+        },
+        {
+          "pitch": 67,
+          "degree": 5,
+          "onset_units": 76,
+          "units": 2,
+          "due_ms": 15200
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 78,
+          "units": 2,
+          "due_ms": 15600
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 80,
+          "units": 3,
+          "due_ms": 16000
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 83,
+          "units": 1,
+          "due_ms": 16600
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 84,
+          "units": 2,
+          "due_ms": 16800
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 86,
+          "units": 2,
+          "due_ms": 17200
+        },
+        {
+          "pitch": 57,
+          "degree": 6,
+          "onset_units": 88,
+          "units": 4,
+          "due_ms": 17600
+        },
+        {
+          "pitch": 64,
+          "degree": 3,
+          "onset_units": 92,
+          "units": 1,
+          "due_ms": 18400
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 93,
+          "units": 1,
+          "due_ms": 18600
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 94,
+          "units": 1,
+          "due_ms": 18800
+        },
+        {
+          "pitch": 62,
+          "degree": 2,
+          "onset_units": 95,
+          "units": 1,
+          "due_ms": 19000
+        },
+        {
+          "pitch": 60,
+          "degree": 1,
+          "onset_units": 96,
+          "units": 4,
+          "due_ms": 19200
+        }
+      ],
+      "notes": 48,
+      "end_ms": 20000,
+      "units": 100,
+      "pass_score": 80,
+      "min_pitch": 55,
+      "max_pitch": 67,
+      "tonic": 0,
+      "chords": [
+        "IV",
+        "V",
+        "iii",
+        "vi"
+      ],
+      "source": {
+        "kind": "existing bundled MIDI, production MidiImport parser",
+        "sha256": "a0d8d11074f228305f313cc3eadec7ba54cc9a0441cc372ee0056a6e4e707cd1",
+        "dump_sha256": "04e02bd63830f1e48e8cfb9bafc879b4322e18ffae3dde5e3b93d6c93dd7f321",
+        "selected_track": 0,
+        "section_first_beat": 0.0,
+        "selected_notes": 48,
+        "overlap_policy": "highest note at equal onset; onset-to-onset exercise lengths",
+        "quantization": "nearest sixteenth note, then common 5ms FPGA timeline"
+      },
+      "arrangement": "旋律练习节选；十六分音符为最小时值，首音对齐，保留所选旋律音高；伴奏为练习编配"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "same_package": "cn.fpga.score",
+  "same_certificate": true,
+  "certificate_sha256": "93785a69239dce5d9735bdf7782cb926c9ed3053da73a9cfbcd42d03506ed8d2",
+  "old_version_code": 25,
+  "new_version_code": 28,
+  "data_schema_unchanged": true,
+  "physical_installation_test": false
+}

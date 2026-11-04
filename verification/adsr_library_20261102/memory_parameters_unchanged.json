@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scope": "per-module multiset of memory primitive configuration and initialization parameters unchanged;not a full netlist equivalence proof",
+  "memory_instances": 88,
+  "baseline_netlist_sha256": "deda86e33a642e32bf8f9c75ee35d086cacdd7b26676154cdfda45116b94615f",
+  "new_netlist_sha256": "418145bc6fec542d5efed1211b86c8e84d80374bd57795f29e4608a9681b23d9",
+  "physical_board_test": false
+}

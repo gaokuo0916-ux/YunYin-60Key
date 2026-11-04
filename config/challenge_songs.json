@@ -1,0 +1,810 @@
+{
+  "format": 1,
+  "clock": "FPGA elapsed milliseconds, after three count-in beats",
+  "songs": [
+    {
+      "title": "小星星",
+      "bpm": 80,
+      "events": [
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 2,
+          "units": 2,
+          "due_ms": 750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 4,
+          "units": 2,
+          "due_ms": 1500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 6,
+          "units": 2,
+          "due_ms": 2250
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 8,
+          "units": 2,
+          "due_ms": 3000
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 10,
+          "units": 2,
+          "due_ms": 3750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 12,
+          "units": 4,
+          "due_ms": 4500
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 16,
+          "units": 2,
+          "due_ms": 6000
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 18,
+          "units": 2,
+          "due_ms": 6750
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 20,
+          "units": 2,
+          "due_ms": 7500
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 22,
+          "units": 2,
+          "due_ms": 8250
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 24,
+          "units": 2,
+          "due_ms": 9000
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 26,
+          "units": 2,
+          "due_ms": 9750
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 28,
+          "units": 4,
+          "due_ms": 10500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 32,
+          "units": 2,
+          "due_ms": 12000
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 34,
+          "units": 2,
+          "due_ms": 12750
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 36,
+          "units": 2,
+          "due_ms": 13500
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 38,
+          "units": 2,
+          "due_ms": 14250
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 40,
+          "units": 2,
+          "due_ms": 15000
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 42,
+          "units": 2,
+          "due_ms": 15750
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 44,
+          "units": 4,
+          "due_ms": 16500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 48,
+          "units": 2,
+          "due_ms": 18000
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 50,
+          "units": 2,
+          "due_ms": 18750
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 52,
+          "units": 2,
+          "due_ms": 19500
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 54,
+          "units": 2,
+          "due_ms": 20250
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 56,
+          "units": 2,
+          "due_ms": 21000
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 58,
+          "units": 2,
+          "due_ms": 21750
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 60,
+          "units": 4,
+          "due_ms": 22500
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 64,
+          "units": 2,
+          "due_ms": 24000
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 66,
+          "units": 2,
+          "due_ms": 24750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 68,
+          "units": 2,
+          "due_ms": 25500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 70,
+          "units": 2,
+          "due_ms": 26250
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 72,
+          "units": 2,
+          "due_ms": 27000
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 74,
+          "units": 2,
+          "due_ms": 27750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 76,
+          "units": 4,
+          "due_ms": 28500
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 80,
+          "units": 2,
+          "due_ms": 30000
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 82,
+          "units": 2,
+          "due_ms": 30750
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 84,
+          "units": 2,
+          "due_ms": 31500
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 86,
+          "units": 2,
+          "due_ms": 32250
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 88,
+          "units": 2,
+          "due_ms": 33000
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 90,
+          "units": 2,
+          "due_ms": 33750
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 92,
+          "units": 4,
+          "due_ms": 34500
+        }
+      ],
+      "notes": 42,
+      "end_ms": 36000,
+      "units": 96,
+      "chords": [
+        "C",
+        "F",
+        "C",
+        "G",
+        "C",
+        "F",
+        "C",
+        "G",
+        "C",
+        "F",
+        "C",
+        "G"
+      ],
+      "pass_score": 60,
+      "arrangement": "七键练习编配；旋律提示保留音区，目标按同名唱名映射",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Twinkle,_Twinkle,_Little_Star"
+      ]
+    },
+    {
+      "title": "欢乐颂",
+      "bpm": 100,
+      "events": [
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 2,
+          "units": 2,
+          "due_ms": 600
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 4,
+          "units": 2,
+          "due_ms": 1200
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 6,
+          "units": 2,
+          "due_ms": 1800
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 8,
+          "units": 2,
+          "due_ms": 2400
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 10,
+          "units": 2,
+          "due_ms": 3000
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 12,
+          "units": 2,
+          "due_ms": 3600
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 14,
+          "units": 2,
+          "due_ms": 4200
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 16,
+          "units": 2,
+          "due_ms": 4800
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 18,
+          "units": 2,
+          "due_ms": 5400
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 20,
+          "units": 2,
+          "due_ms": 6000
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 22,
+          "units": 2,
+          "due_ms": 6600
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 24,
+          "units": 3,
+          "due_ms": 7200
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 27,
+          "units": 1,
+          "due_ms": 8100
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 28,
+          "units": 4,
+          "due_ms": 8400
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 32,
+          "units": 2,
+          "due_ms": 9600
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 34,
+          "units": 2,
+          "due_ms": 10200
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 36,
+          "units": 2,
+          "due_ms": 10800
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 38,
+          "units": 2,
+          "due_ms": 11400
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 40,
+          "units": 2,
+          "due_ms": 12000
+        },
+        {
+          "degree": 4,
+          "pitch": 65,
+          "onset": 42,
+          "units": 2,
+          "due_ms": 12600
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 44,
+          "units": 2,
+          "due_ms": 13200
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 46,
+          "units": 2,
+          "due_ms": 13800
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 48,
+          "units": 2,
+          "due_ms": 14400
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 50,
+          "units": 2,
+          "due_ms": 15000
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 52,
+          "units": 2,
+          "due_ms": 15600
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 54,
+          "units": 2,
+          "due_ms": 16200
+        },
+        {
+          "degree": 2,
+          "pitch": 62,
+          "onset": 56,
+          "units": 3,
+          "due_ms": 16800
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 59,
+          "units": 1,
+          "due_ms": 17700
+        },
+        {
+          "degree": 1,
+          "pitch": 60,
+          "onset": 60,
+          "units": 4,
+          "due_ms": 18000
+        }
+      ],
+      "notes": 30,
+      "end_ms": 19200,
+      "units": 64,
+      "chords": [
+        "C",
+        "G",
+        "C",
+        "G",
+        "C",
+        "G",
+        "G",
+        "C"
+      ],
+      "pass_score": 70,
+      "arrangement": "七键练习编配；旋律提示保留音区，目标按同名唱名映射",
+      "sources": [
+        "https://www.mutopiaproject.org/ftp/BeethovenLv/ode/ode-let.pdf"
+      ]
+    },
+    {
+      "title": "茉莉花",
+      "bpm": 120,
+      "events": [
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 0,
+          "units": 2,
+          "due_ms": 0
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 2,
+          "units": 1,
+          "due_ms": 500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 3,
+          "units": 1,
+          "due_ms": 750
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 4,
+          "units": 1,
+          "due_ms": 1000
+        },
+        {
+          "degree": 1,
+          "pitch": 72,
+          "onset": 5,
+          "units": 1,
+          "due_ms": 1250
+        },
+        {
+          "degree": 1,
+          "pitch": 72,
+          "onset": 6,
+          "units": 1,
+          "due_ms": 1500
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 7,
+          "units": 1,
+          "due_ms": 1750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 8,
+          "units": 2,
+          "due_ms": 2000
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 10,
+          "units": 1,
+          "due_ms": 2500
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 11,
+          "units": 1,
+          "due_ms": 2750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 12,
+          "units": 2,
+          "due_ms": 3000
+        },
+        {
+          "degree": 0,
+          "pitch": 0,
+          "onset": 14,
+          "units": 2,
+          "due_ms": 3500
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 16,
+          "units": 2,
+          "due_ms": 4000
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 18,
+          "units": 1,
+          "due_ms": 4500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 19,
+          "units": 1,
+          "due_ms": 4750
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 20,
+          "units": 1,
+          "due_ms": 5000
+        },
+        {
+          "degree": 1,
+          "pitch": 72,
+          "onset": 21,
+          "units": 1,
+          "due_ms": 5250
+        },
+        {
+          "degree": 1,
+          "pitch": 72,
+          "onset": 22,
+          "units": 1,
+          "due_ms": 5500
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 23,
+          "units": 1,
+          "due_ms": 5750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 24,
+          "units": 2,
+          "due_ms": 6000
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 26,
+          "units": 1,
+          "due_ms": 6500
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 27,
+          "units": 1,
+          "due_ms": 6750
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 28,
+          "units": 2,
+          "due_ms": 7000
+        },
+        {
+          "degree": 0,
+          "pitch": 0,
+          "onset": 30,
+          "units": 2,
+          "due_ms": 7500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 32,
+          "units": 2,
+          "due_ms": 8000
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 34,
+          "units": 2,
+          "due_ms": 8500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 36,
+          "units": 2,
+          "due_ms": 9000
+        },
+        {
+          "degree": 3,
+          "pitch": 64,
+          "onset": 38,
+          "units": 1,
+          "due_ms": 9500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 39,
+          "units": 1,
+          "due_ms": 9750
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 40,
+          "units": 2,
+          "due_ms": 10000
+        },
+        {
+          "degree": 6,
+          "pitch": 69,
+          "onset": 42,
+          "units": 2,
+          "due_ms": 10500
+        },
+        {
+          "degree": 5,
+          "pitch": 67,
+          "onset": 44,
+          "units": 4,
+          "due_ms": 11000
+        }
+      ],
+      "notes": 30,
+      "end_ms": 12000,
+      "units": 48,
+      "chords": [
+        "C",
+        "C",
+        "G",
+        "C",
+        "C",
+        "G",
+        "C",
+        "G"
+      ],
+      "pass_score": 80,
+      "arrangement": "七键练习编配；旋律提示保留音区，目标按同名唱名映射；节选前六小节",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Jasmine_barrow.svg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/app/build/
+/app/signing/
+__pycache__/
+*.jks
+*.keystore
+.env

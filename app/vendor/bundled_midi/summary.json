@@ -1,0 +1,26 @@
+{
+  "source": "https://github.com/Tsundeer/MeowField_MidiLibrary",
+  "downloaded_files": 19197,
+  "available_files": 18775,
+  "rejected_files": 422,
+  "ready_seven_key_versions": 7582,
+  "chinese_identified_versions": 2296,
+  "chinese_display_title_groups": 1440,
+  "chinese_prepared_versions": 962,
+  "categories": {
+    "asian-pop": 12661,
+    "game-music": 416,
+    "world-pop": 5537,
+    "uncategorized": 8,
+    "anime-acg": 61,
+    "classical-light": 84,
+    "virtual-singers": 7,
+    "drums-rhythm": 1
+  },
+  "bundle_bytes": 71527916,
+  "bundle_sha256": "6c980769f88a8981a017d956cb847fac2db1794eccc426d1514b782f4ff2fe50",
+  "index_sha256": "49e664cf40b1b872d17cb9f7723a08f9cd953b80088d3df5ad8051b2464e73b7",
+  "classification": "Conservative name/artist match against curated names; unrecognized entries retain original categories. Display-title groups are not a verified composition count.",
+  "melody": "Heuristic suggestion; not manually auditioned. Octaves collapsed, transposed to seven C-major keys; chromatic drafts remain original MIDI and require review.",
+  "copyright": "Upstream README states the maintainer confirmed public redistribution authorization; individual licenses not independently audited."
+}

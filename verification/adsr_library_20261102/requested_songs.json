@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "original_midi_assets_unchanged": true,
+  "bundle_sha256": "6c980769f88a8981a017d956cb847fac2db1794eccc426d1514b782f4ff2fe50",
+  "available_file_count": 18775,
+  "effective_chinese_versions": 2301,
+  "five_requested_songs": [
+    {
+      "title": "没有共产党就没有新中国",
+      "id": "f3b4e0f0ed85e382031ca034449ba201dac10490331d2b7b8c7b79111edf700d",
+      "original_title": "没有共产党就没有新中国",
+      "source_path": "midi/asian-pop/06328-没有共产党就没有新中国--f3b4e0f0.mid",
+      "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/06328-%E6%B2%A1%E6%9C%89%E5%85%B1%E4%BA%A7%E5%85%9A%E5%B0%B1%E6%B2%A1%E6%9C%89%E6%96%B0%E4%B8%AD%E5%9B%BD--f3b4e0f0.mid",
+      "original_notes": 406,
+      "tracks": 2,
+      "suggested_voice": 0,
+      "native_voice_notes": 137,
+      "missing_in_default_C2_B6": 0,
+      "voice_name": "Piano · 通道 1"
+    },
+    {
+      "title": "歌唱祖国",
+      "id": "156c1075b21670abfab4a70b39530579eec8150799f6cbe0f256d4b6185fdcc1",
+      "original_title": "歌唱祖国",
+      "source_path": "midi/asian-pop/歌唱祖国--156c1075.mid",
+      "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/%E6%AD%8C%E5%94%B1%E7%A5%96%E5%9B%BD--156c1075.mid",
+      "original_notes": 4019,
+      "tracks": 8,
+      "suggested_voice": 2,
+      "native_voice_notes": 406,
+      "missing_in_default_C2_B6": 0,
+      "voice_name": "Brightness · 通道 3"
+    },
+    {
+      "title": "我爱你中国",
+      "id": "3c8d81baf8240fb77143a7ce325c3efc37cdba3d7d78f3b5e5fc4c42f2a31831",
+      "original_title": "我爱你中国-电影-海外赤子-插曲",
+      "source_path": "midi/asian-pop/02668-我爱你中国-电影-海外赤子-插曲--3c8d81ba.mid",
+      "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/02668-%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD-%E7%94%B5%E5%BD%B1-%E6%B5%B7%E5%A4%96%E8%B5%A4%E5%AD%90-%E6%8F%92%E6%9B%B2--3c8d81ba.mid",
+      "original_notes": 2088,
+      "tracks": 2,
+      "suggested_voice": 1,
+      "native_voice_notes": 1103,
+      "missing_in_default_C2_B6": 40,
+      "voice_name": "音轨 3 · 通道 1"
+    },
+    {
+      "title": "茉莉花",
+      "id": "40393700222809330f3a0c9709e08b202c65a20b35ade93ed7e56fa97a26624b",
+      "original_title": "茉莉花",
+      "source_path": "midi/asian-pop/00010-茉莉花--40393700.mid",
+      "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/00010-%E8%8C%89%E8%8E%89%E8%8A%B1--40393700.mid",
+      "original_notes": 531,
+      "tracks": 2,
+      "suggested_voice": 1,
+      "native_voice_notes": 296,
+      "missing_in_default_C2_B6": 0,
+      "voice_name": "音轨 3 · 通道 1"
+    },
+    {
+      "title": "送别",
+      "id": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658",
+      "original_title": "送别",
+      "source_path": "midi/asian-pop/00519-送别--1a5bf017.mid",
+      "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/00519-%E9%80%81%E5%88%AB--1a5bf017.mid",
+      "original_notes": 192,
+      "tracks": 2,
+      "suggested_voice": 1,
+      "native_voice_notes": 125,
+      "missing_in_default_C2_B6": 0,
+      "voice_name": "Track 2 · 通道 1"
+    }
+  ],
+  "manually_auditioned_or_note_by_note_checked": false
+}

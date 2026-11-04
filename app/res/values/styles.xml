@@ -1,0 +1,8 @@
+<resources>
+    <style name="YunYinTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#2f5444</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">#f7f6f2</item>
+    </style>
+</resources>

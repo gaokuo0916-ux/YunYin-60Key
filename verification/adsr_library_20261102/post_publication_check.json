@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "user_code": "0x0000D2F1",
+  "source_hashes_verified": 73,
+  "FS_bin_APK_hashes_verified": true,
+  "sole_project_entry": "guitar_penghuwan_ledguide.gprj",
+  "published_CPU_and_P2R0_config_verified": true,
+  "timing_violations": {
+    "Setup": 0,
+    "Hold": 0
+  },
+  "resources": {
+    "Logic": "49969/59904",
+    "Register": "21778/60780",
+    "BSRAM": "103/118",
+    "DSP": "64.5/118",
+    "CLS": "27550/29952"
+  },
+  "physical_board_test": false
+}

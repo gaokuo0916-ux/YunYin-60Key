@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "apk_sha256": "94bcac4163310a048f47257f07575104f49a1a12b076c1f0025902248b2cf26d",
+  "actual_APK_embedded_MIDI_SHA256_verified": true,
+  "whole_bundle_sha256": "6c980769f88a8981a017d956cb847fac2db1794eccc426d1514b782f4ff2fe50",
+  "html_bytes_exact": true,
+  "songs": [
+    {
+      "title": "没有共产党就没有新中国",
+      "entry": "f3b4e0f0ed85e382031ca034449ba201dac10490331d2b7b8c7b79111edf700d.mid",
+      "bytes": 3720,
+      "sha256": "f3b4e0f0ed85e382031ca034449ba201dac10490331d2b7b8c7b79111edf700d"
+    },
+    {
+      "title": "歌唱祖国",
+      "entry": "156c1075b21670abfab4a70b39530579eec8150799f6cbe0f256d4b6185fdcc1.mid",
+      "bytes": 32035,
+      "sha256": "156c1075b21670abfab4a70b39530579eec8150799f6cbe0f256d4b6185fdcc1"
+    },
+    {
+      "title": "我爱你中国",
+      "entry": "3c8d81baf8240fb77143a7ce325c3efc37cdba3d7d78f3b5e5fc4c42f2a31831.mid",
+      "bytes": 17662,
+      "sha256": "3c8d81baf8240fb77143a7ce325c3efc37cdba3d7d78f3b5e5fc4c42f2a31831"
+    },
+    {
+      "title": "茉莉花",
+      "entry": "40393700222809330f3a0c9709e08b202c65a20b35ade93ed7e56fa97a26624b.mid",
+      "bytes": 4786,
+      "sha256": "40393700222809330f3a0c9709e08b202c65a20b35ade93ed7e56fa97a26624b"
+    },
+    {
+      "title": "送别",
+      "entry": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658.mid",
+      "bytes": 1905,
+      "sha256": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658"
+    }
+  ],
+  "physical_Android_test": false
+}

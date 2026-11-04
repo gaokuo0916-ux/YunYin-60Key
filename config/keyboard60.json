@@ -1,0 +1,51 @@
+{
+  "status": "User confirmed 2026-10-30 mixed5=3 white+2 black, mixed7=4 white+3 black; board previews match input order. Not physically verified.",
+  "base_midi": 36,
+  "key_count": 60,
+  "voice_count": 32,
+  "octave_base_midi": [
+    12,
+    24,
+    36,
+    48,
+    60
+  ],
+  "serial_bits": 80,
+  "keyboard_boards": 10,
+  "optional_control_hc165": 0,
+  "led_count": 60,
+  "leading_status_pixels": 0,
+  "order": "M5_0 M7_0 M5_1 M7_1 M5_2 M7_2 M5_3 M7_3 M5_4 M7_4",
+  "physical_board_verified": false,
+  "control_interface": "ADS7828 8 channels, external 3.3V reference PD=01; probe 0x48..0x4B",
+  "legacy_control_inputs": {
+    "A": "octave A",
+    "B": "octave B",
+    "C": "reserved",
+    "D": "timbre",
+    "E": "start/stop",
+    "F": "pause/continue",
+    "G": "reserved",
+    "H": "reserved"
+  },
+  "control_adc_channels": {
+    "0": "octave",
+    "1": "volume",
+    "2": "timbre",
+    "3": "vibrato depth",
+    "4": "sustain pressure",
+    "5": "last held note upward bend pressure",
+    "6": "start/stop",
+    "7": "pause/resume"
+  },
+  "leading_board_pixels": 1,
+  "serialized_led_words": 61,
+  "led_transport": "J16 -> onboard WS2812 (black prefix) -> Dock J24.3 -> 60 external key LEDs",
+  "physical_connected_keys_reported_approximately": 24,
+  "led_idle_rgb": "000000",
+  "led_active_channel_pwm": 255,
+  "mixed_5_7": true,
+  "five_key_inputs": "A..E = C C# D D# E",
+  "seven_key_inputs": "A..G = F F# G G# A A# B",
+  "legacy_black_first": true
+}

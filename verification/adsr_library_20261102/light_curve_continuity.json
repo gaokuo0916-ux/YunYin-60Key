@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "connected_curves": 4,
+  "cases": [
+    {
+      "case": 0,
+      "ink_pixels": 2128,
+      "continuous_columns": 577,
+      "components": 1
+    },
+    {
+      "case": 1,
+      "ink_pixels": 1976,
+      "continuous_columns": 577,
+      "components": 1
+    },
+    {
+      "case": 2,
+      "ink_pixels": 2022,
+      "continuous_columns": 577,
+      "components": 1
+    },
+    {
+      "case": 3,
+      "ink_pixels": 2029,
+      "continuous_columns": 577,
+      "components": 1
+    }
+  ],
+  "captures": {
+    "adsr_0.rgb": "a4bc5d7487435d98a402e654c3ffa03ddefbbf218dd713cf0471c861f2e85388",
+    "adsr_1.rgb": "1cc3fb59162dfa7521e8e25949c3467f4a8cd3a7bfc14738d12f3429bd3f6d77",
+    "adsr_2.rgb": "6e2b97427e6574b23f05af292aeb30abc76931eb9fff87cd9a7f621774645761",
+    "adsr_3.rgb": "d381f2bb27a9e0e31826b20cfe417a72212a5c8ccb8e9118c6d699611718b685"
+  },
+  "physical_board_test": false
+}

@@ -1,0 +1,32 @@
+YunYin Score 2.0 — third-party notices
+
+Offline image text recognition uses Tesseract4Android 4.9.0
+https://github.com/adaptech-cz/Tesseract4Android
+Apache License 2.0; see tess_license.txt.
+The native package includes Tesseract OCR and Leptonica, libjpeg and libpng.
+See the corresponding bundled license files for copyright and license terms.
+
+English LSTM fast model (eng.traineddata):
+https://github.com/tesseract-ocr/tessdata_fast
+Apache License 2.0; see traineddata_license.txt.
+
+Leptonica:
+https://github.com/DanBloomberg/leptonica
+See leptonica_license.txt (BSD-style license).
+
+JPEG 9f: This software is based in part on the work of the Independent JPEG Group.
+https://www.ijg.org/
+See libjpeg_license.txt (the complete README from the JPEG 9f distribution).
+
+libpng 1.6.48:
+https://github.com/pnggroup/libpng
+See libpng_license.txt.
+
+Online score directory and downloads:
+https://musetrainer.github.io/library/
+The directory describes its collection as Public Domain MusicXML files.
+The app preserves the actual download URL in each saved library entry.
+The source directory is cached for offline browsing; downloading a score needs Internet.
+
+Image recognition and music conversion are assistance for user review.
+No recorded song audio, PCM playback, cloud OCR or paid recognition API is bundled.

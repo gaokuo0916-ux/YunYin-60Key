@@ -1,0 +1,46 @@
+{
+  "catalog_version": "1.23",
+  "upstream_count": 133667,
+  "included": 95923,
+  "excluded": {
+    "missing_or_long_title": 11925,
+    "quality_flag": 1410,
+    "note_count_limit": 10,
+    "excluded_source": 24399
+  },
+  "groups": {
+    "folk": 16777,
+    "piano": 38995,
+    "china": 10473,
+    "other": 10945,
+    "classical": 18432,
+    "game": 301
+  },
+  "sources": {
+    "abcmisc": 1487,
+    "aria": 19616,
+    "atepp": 7130,
+    "chinafolk": 10473,
+    "cyberhymnal": 10945,
+    "emopia": 913,
+    "essen": 10373,
+    "giantmidi": 10102,
+    "lakh": 9102,
+    "m21": 2924,
+    "maestro": 1234,
+    "musicnet": 292,
+    "mutopia": 1800,
+    "norbeck": 3439,
+    "nottingham": 1033,
+    "oga": 301,
+    "openscore": 1423,
+    "pdmx": 2891,
+    "wikifonia": 445
+  },
+  "sha256": "124957fff3b6a229191ee029f0e2616713f4681dc4a2be357bfcc1c630533ef0",
+  "database_bytes": 25800704,
+  "upstream_repository": "https://github.com/midicn/midi-library",
+  "upstream_commit": "9a0d58fbebb6f85dce60ee1de0861cee6bdd6df0",
+  "url_base": "https://lib.midicn.com/",
+  "scope": "searchable score versions, not distinct pop-song count; downloads require review"
+}

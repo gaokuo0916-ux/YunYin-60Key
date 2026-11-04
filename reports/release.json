@@ -1,0 +1,3091 @@
+{
+  "project": "YunYin_v2_6_60Key",
+  "entry": "guitar_penghuwan_ledguide.gprj",
+  "features": "0x7FFB",
+  "physical_keys": 60,
+  "independent_voices": 32,
+  "default_midi_range": [
+    36,
+    95
+  ],
+  "scan_bits": 80,
+  "led_pixels": 60,
+  "event_capacity": 8192,
+  "tf_ring_bytes": 32768,
+  "tf_container_changed": false,
+  "new_card_reformat_required": false,
+  "mapping": "Mixed5 C..E then mixed7 F..B, repeated five octaves; unchanged static top adapter",
+  "original_score_upload": "Selected voice, sequential self-paced original MIDI pitch; out-of-range manual skip",
+  "octave_persistence": "Runtime only; reboot defaults to C2..B6",
+  "audio_core_note_models": "Piano selected-model/reference blend; guitar max32 damped modes fitted to procedural KS (not full delay-line KS); accordion measured harmonic-envelope bandlimited periodic reeds; no recorded PCM playback",
+  "practice_recording": {
+    "slots": 20,
+    "legacy_views": 2,
+    "max_seconds": 120,
+    "max_samples": 5859375,
+    "ring_bytes": 32768,
+    "directory_page_bytes": 512,
+    "container_bytes": 268435456,
+    "old_region_bytes_preserved": 33554432,
+    "metadata_dual_crc_copies": true,
+    "card_authoritative_index": true,
+    "phone_date_opt_in": true,
+    "protocol_capability": "0x8000",
+    "validation": "verification/output_gain_20261031/validation.json",
+    "usage": "docs/练习录音记录_使用与上板测试.md"
+  },
+  "control_panel_pins": {
+    "SDA": "AB21",
+    "SCL": "AB22"
+  },
+  "pressure_1": "physical-key sustain, repeated same-key voice retrigger, release and UART/music isolation",
+  "pressure_2": "FX increment;screen baseline+pressure saturated0..63,independently usable,defaultbaseline0;row4 displays effective target0..100%;manual screen pitch retained",
+  "mixed_keyboard_mapping": {
+    "enabled": true,
+    "implementation": "static top-level wire adapter, legacy internal scanner/LED layout",
+    "five_board": "U1 C, U2 C#, U3 D, U4 D#, U5 E",
+    "seven_board": "U1 F, U2 F#, U3 G, U4 G#, U5 A, U8 A#, U7 B",
+    "led_order": "consecutive semitones, external0..59",
+    "scan_raw_bits_per_group": [
+      7,
+      6,
+      5,
+      4,
+      3,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9
+    ],
+    "physical_board_test": false,
+    "source_evidence": "verification/mixed57_mapping_20261030/pcb_reference.json"
+  },
+  "led_idle_rgb": "000000",
+  "led_active_channel_pwm": 255,
+  "later_leds_physical_issue_resolved": false,
+  "audio_output_gain": {
+    "max_amplitude_factor": 4,
+    "max_unlimited_gain_db": 12.041199826559248,
+    "q_fraction_bits": 13,
+    "peak_ceiling": 24000,
+    "conservative_reciprocal_bins": 64,
+    "attack": "current-sample cap",
+    "recovery_time_constant_samples": 4096,
+    "lookahead_samples": 0,
+    "knob_range_unchanged": [
+      0,
+      63
+    ],
+    "mute_zero_preserved": true,
+    "dense_polyphony_gain_may_be_less_than4": true,
+    "physical_loudness_verified": false
+  },
+  "pressure_effects": {
+    "shared_ram_words": 6144,
+    "shared_ram_width": 18,
+    "physical_effect_bram": 6,
+    "mutually_exclusive": true,
+    "global_postmix": true,
+    "mode_persisted": false,
+    "usage": "docs/三音效输出校准_20261102.md",
+    "default_mode": 1,
+    "ui_cycle": [
+      1,
+      2,
+      3
+    ],
+    "legacy_space_removed": true,
+    "manual_pitch_retained": true,
+    "pressure_pitch_removed": true,
+    "screen_default": 0,
+    "control": "min(63,screen_baseline+pressure)",
+    "display": "effective target0..100%",
+    "reverb_wet_gain": 6,
+    "reverb_injection": 0.125,
+    "chorus_wet_gain": 4,
+    "chorus_modulation_hz": 0.7450580596923828,
+    "delay_first_echo_ratio": 0.75,
+    "delay_feedback": 0.5999755859375,
+    "delay_ms": 125.00992
+  },
+  "spectrum_ranges": {
+    "ui_cycle_hz": [
+      3052,
+      8011,
+      12207,
+      24414,
+      763
+    ],
+    "fft_points": 1024,
+    "new_range_bins": 168,
+    "bin_spacing_hz": 47.6837158203125
+  },
+  "lossless_transfer_retained": true,
+  "lossy_preview_cancelled": true,
+  "challenge_background_music": false,
+  "live_keyboard_during_challenge": true,
+  "challenge_songs_and_judge_preserved": 15,
+  "ready": true,
+  "user_code": "0x0000D2F1",
+  "resources": {
+    "Logic": "49969/59904",
+    "Register": "21778/60780",
+    "BSRAM": "103/118",
+    "DSP": "64.5/118",
+    "CLS": "27550/29952"
+  },
+  "delta_from_C63E": {
+    "Logic": 214.0,
+    "Register": 27.0,
+    "BSRAM": 0.0,
+    "DSP": 0.0,
+    "CLS": 226.0
+  },
+  "fmax_mhz": 50.075,
+  "timing_violations": {
+    "Setup": 0,
+    "Hold": 0
+  },
+  "checked_pins": 55,
+  "RTL_files_changed": [
+    "src/lcd_pending/lcd_adsr_panel.v",
+    "src/lcd_pending/lcd_adsr_renderer.v"
+  ],
+  "current_RTL_suites": 7,
+  "app_version": "2.6.6",
+  "physical_board_test": false,
+  "passed": true,
+  "previous_user_code": "0x0000C63E",
+  "completed": "2026-11-03T01:18:34.258387+08:00",
+  "setup_hold_violations": 0,
+  "tests": {
+    "adsr_render_tb": {
+      "record": "verification/adsr_library_20261102/tests/adsr_render_tb.json",
+      "console": [
+        "# PASS ADSR renderer 2304000 pixels, 12827 changed only inside original curve box; A/D/R extremes, livepage actual envelope values,waveform page unchanged versus C63E"
+      ]
+    },
+    "adsr_panel_edit_tb": {
+      "record": "verification/adsr_library_20261102/tests/adsr_panel_edit_tb.json",
+      "console": [
+        "# PASS ADSR actual touch/bank/frame-snapshot/curve 49 checks,3timbres x4parameters; both pages use actual envelope indices; no hardware"
+      ]
+    },
+    "dual_display_tb": {
+      "record": "verification/adsr_library_20261102/tests/dual_display_tb.json",
+      "console": [
+        "# PASS all64 screen percentages 0..100, manual pitch and volume/vibrato unchanged"
+      ]
+    },
+    "three_fx_touch_tb": {
+      "record": "verification/adsr_library_20261102/tests/three_fx_touch_tb.json",
+      "console": [
+        "# PASS pressure-role UI 57 checks: same touch coordinates,3 modes/default reverb,hold guard,depth,manual bend,restore and3/8/12/24/0.76k range cycle"
+      ]
+    },
+    "challenge_no_bgm_tb": {
+      "record": "verification/adsr_library_20261102/tests/challenge_no_bgm_tb.json",
+      "console": [
+        "# PASS challenge without BGM 1997225 checks: all15 songs/countdown/judging/end, pause/resume, 346 no-key silent frames, 799 audible live-key frames; no PNR/board test"
+      ]
+    },
+    "keyboard60_panel_top_tb": {
+      "record": "verification/adsr_library_20261102/tests/keyboard60_panel_top_tb.json",
+      "console": [
+        "# PASS control-panel top: 9633 checks; real I2C, 80-bit scanner, volume/timbre/vibrato, pressure pitch disabled,screen single-note bend,pressure FX,sustain and start/pause/resume/stop"
+      ]
+    },
+    "keyboard60_full60_chain_tb": {
+      "record": "verification/adsr_library_20261102/tests/keyboard60_full60_chain_tb.json",
+      "console": [
+        "# PASS full60_chain LCD-on 180931 checks, 12821 production samples: ten HC165s, all60 keys, last-key59 LED, full chain boundaries, missing TF/ADC fallback, full255 LEDs and actual unmuted PT8211 words; no physical board"
+      ]
+    }
+  },
+  "sources": {
+    "src/accordion_reed_table.v": "da06c7859d297b2b323162db3ac784d43c5704c3cd838b1c84174980c969e468",
+    "src/accordion_synth_7.v": "e3d826108aa675574ce66ec1ce3cfac29ee055ca6a0a3f7dc789cdebb6948642",
+    "src/ads7828_panel.v": "89dae61013fa0541628d35b0df7e24d238bbd975ad57e9e1636613c64893a790",
+    "src/adsr_envelope.v": "d9869e643bfe8c31897a8693acab5d84545f65517187ef265231a8fb3292968c",
+    "src/bluetooth_command_rx.v": "37f4dc9fa098a2ee562d53b3da4a96beabc4aed04d63cad078dbd9ad5bdf8412",
+    "src/bluetooth_reply.v": "606101637300e8c116a2b99882d0fabb6ac7b0cc6fb862fbc224aeb46e4c8657",
+    "src/bluetooth_reply_studio.v": "9de3bbbd6b1b3528a29686240857e8ea94d9e04fd00245d04d85c4e9d49c0c28",
+    "src/bluetooth_score.v": "9e4c422e871346d7cc4d78671691bbad352ac3a888bb915824e0d325bb97ba02",
+    "src/bluetooth_score_studio.v": "54661d58681bd32e3b8d98c3157e793a94763fdcab55f5da272c0f1b86e98961",
+    "src/bluetooth_uart.v": "b7abbc45decc94dc56621584e8ea9eef33c69d5ab60a4a9692476559fbae73cf",
+    "src/challenge_catalog.v": "ee4df77f3e0f8761744f8fd7b000232d0c1f128eae3b6d7582e90b61a9c961db",
+    "src/challenge_catalog_store.v": "ce53b2fb11e9af7a2c21d4b4987be0b41d6bc36dc9f14b7ce3a6334914f219ef",
+    "src/challenge_music.v": "9774d3b90454c18f2d06d700c615749b8c9b0a885c98da641dcd8c5eaab6b2ea",
+    "src/challenge_title_rom.v": "32c1e60ebfb430c1da40f781e0e66c723f6479a39ea89a850cb6c403a7f8a6a9",
+    "src/control_panel_map.v": "0ad32278866a6218cc29f98abacccee6395ffd5e988463e00ce69e2973339be6",
+    "src/guitar_penghuwan_ledguide.cst": "bd8de09dbf9830836654f9b699ac2c807a5a9797f11581f533de32b0ce5738f4",
+    "src/guitar_penghuwan_ledguide.sdc": "6969a642e821d19a3e1ec7ab2b82df43f52925cd48fb2ec9062a72e526c4300c",
+    "src/guitar_penghuwan_ledguide.v": "03159169b25c45ac7ac7fe5ecc89fa9f5130af2560d9dd4f6f7466ffde53d761",
+    "src/guitar_synth_7.v": "cdfe5ad1582965b790bd1a24e140607241c2c0e8a4492333380ab249b6efdb68",
+    "src/guitar_voice.v": "114606003d1e79b1bc0624d907bb21e8150c273b388f863dd0155a17bfc9fd4c",
+    "src/i2s_tx.v": "c610459faa855ba92a18b992f162dab4367b4e19d06aaddff64f56655d0d4f0b",
+    "src/keyboard60_controls.v": "d7a6a0ac36e841196d263816bd27c3be8b36c056114c6fac38d7417cea5acda3",
+    "src/keyboard60_led.v": "628865360bdaee03c6129602f7ac12d93fd9abd94ee2aaa58121dbb123b4eaae",
+    "src/keyboard60_performance.v": "6b2dbc5bc3d050c2afadee4db97b8d8e96198a861efb00d2ee18f674755d5dfd",
+    "src/keyboard60_scan.v": "70dc21897edf68805f6daf99f628915b1997ae964faf3ae2bc3dc1fe21d85889",
+    "src/keyboard60_tables.v": "f46cd1d10e56a1259e6384d1d990487af7e7baf451c99fc8ac0fb178adacd4a5",
+    "src/led_practice_control.v": "413f229e66cdc4f87b2ebcbe786c88de5825e8a90bc81ce41c95770a2f97f1cf",
+    "src/penghuwan_score_rom.v": "58cdaed02f4e8236c6431d60957a4341545acf024e9cc6d8f2f9895f697bffba",
+    "src/performance_control.v": "c63368b84d2f308e8865367b698ba0793dc371e1953ae57916a481d8ff0f8cc0",
+    "src/performance_display.v": "3340d8cf0287af379595b1b027c03f170438a1027ee8e9d22a269a38b80504c0",
+    "src/performance_mix.v": "d6e2742a1e08460758ff74b56c8fc311352bed81b494165993e26f4ea1944ac5",
+    "src/performance_pitch_table.v": "03281cd968a85c53843edd1629dc3670caad94c758e4fa1662690008b2daf5b3",
+    "src/piano_modal_synth_7.v": "92530d2cb4ba58fd3d24953a2c00bc4fe4d116d05265327074b99040f15f2231",
+    "src/piano_modal_tables.v": "bfe36c72ec1720585675ea77b53a26fca21ae8baefa816c9cad6c0cb303c17f2",
+    "src/poly32_lane.v": "a9f222a0a400da1a481d7f082331cf3c766b33b654af2fbf57c684455a0895df",
+    "src/poly32_synth.v": "65a2d87694fcf3ceac542651785a79979b978dd9781a7d9b6ff23b7e04ec8f8a",
+    "src/practice_record_store.v": "9e79f7fa144ddfddc40833a5f7f57dfab5ff2bed969aa03bf435b2bfd86ad648",
+    "src/pt8211_tx.v": "1a4b661f19d79e16cc28b70d616787d713ec7a9f8eaa31fc9507a27979f533c4",
+    "src/rhythm_challenge.v": "8af81c6638a3e5d96b6ce2837cca9b256ec3de22f841c7db027d7004039cf5c3",
+    "src/sd_file_volume.v": "7b542fca0d999a5435d6ef4abe20e24024a9afaa252706ff0f069df7d0a51f7a",
+    "src/sd_pin_trace.v": "6c6f43b241b7b2f3923a6f532b7290d4faf001455c98a30e95b10c7131033b25",
+    "src/sd_spi_block.v": "2fc3b4cb6aa05c4570a70d8a527b6ba9cf3fb6c8f7421aead68773a6a5613b63",
+    "src/studio_audio_store.v": "5995ccc2aa5f5fd6911bed5537f2f9c3b8c774337611ecdca05daebc9f7a1062",
+    "src/studio_keymap.v": "7b3979cb8a01417876c4ec10931453118a09bd983b8b2a292501878667391557",
+    "src/studio_link.v": "a429c554b480668f5599665dfd95e0752fb5807d72b75af368d931e1a747dfbc",
+    "src/studio_pcm_capture.v": "9eee29f826914c4056be426f1133b0117c296b9989ba4de80797dfb83d2f6389",
+    "src/studio_score_store.v": "a4d9925da3e00991b0a99ef0921fab7bdb668eb10e5a69e6db8075f676594b33",
+    "src/studio_storage.v": "f54181a4ed97f0e0c325aa3ff52f1d9a7f6daf65e724807b85318946ee4a7902",
+    "src/timbre_select.v": "7ee25c4b9f10528408afc0a4ad733cc03ce46c77fe52966e05ff9b1fd836616e",
+    "src/tone_output_filter.v": "6a9617b9be0fcc44cc8ada70b11d52f901f892261085a26fef472eb9ae0d24f9",
+    "src/training_score_rom.v": "c491e94a263f6e25eb6b14b308158c0186dcca973f411678796e8d691d3ad964",
+    "src/lcd_pending/adsr_parameter_bank.v": "512da3982883a738c61f5586d86f05f10150bfb72fe00c3662231d1a4e0ac35e",
+    "src/lcd_pending/adsr_parameter_tables.v": "169a2365ab83e8f393e186ac8b8858c1fab717647bfc07038a322e83ecd3b398",
+    "src/lcd_pending/adsr_runtime.v": "ec4f4ee73bed53d2e08fde3b1bec7d25554e8e8869bc83001d7fad0b0c0f2fc3",
+    "src/lcd_pending/adsr_touch_sliders.v": "280b8d855186294491e88fc76c5b8f2c2ce2f76e453e44dce63ad9aa6db6e38d",
+    "src/lcd_pending/audio_fundamental_monitor.v": "d8c209c4ee228ae1717ad084a51ab77d22913761fe1714650c931cfa7a6d986b",
+    "src/lcd_pending/audio_phase_plot.v": "bfe01e00102495a33c683698be0bb07493bb05cb88337516d686ffe5817fff7e",
+    "src/lcd_pending/audio_plot_reference.v": "23fe5240f20e8224c167b683d66f5e1a546e89af7ff2df40299554903f643af1",
+    "src/lcd_pending/audio_spectrum.v": "1eb08f9d2838daca14727406b7d8550da6852496bcf2a134d45bcb3314380aaf",
+    "src/lcd_pending/audio_wave_capture.v": "8904b079f198f8232fc0c37ba3735d3bc67a9e28e6bcd51e8cc338512172a3d1",
+    "src/lcd_pending/gt911_touch_reader.v": "54506e3b8b516010e8d4a15c8c2cb36981c6b7cdd219c1db3cfae95c8e62ab0a",
+    "src/lcd_pending/i2c_register_master.v": "51eec1812f28c4913e6973bb6eebfb7a3e36871bb981b122a0ccb90ce91cafc5",
+    "src/lcd_pending/lcd_adsr_panel.v": "67aa493b689f47f7e0471824b38a3ec916929c3001c6741ae70544cb747edfcd",
+    "src/lcd_pending/lcd_adsr_renderer.v": "050fdeccf4304e76f2a4c7edd1d39129595b4f1de0551a74aee775d467cde5b1",
+    "src/lcd_pending/lcd_panel_digit.v": "b8796343c38656cd8f1d7897545f69c00448817a0873581219982b64776b75c6",
+    "src/lcd_pending/lcd_panel_font.v": "ecd6bcdc27f48930891b71e68e4edfaa5a3e4a3fb6564a00494297217043f44f",
+    "src/lcd_pending/lcd_panel_text.v": "ee036776b4c35fb02a757039ed5ddb9c1c16c4ac04d6db4b14110781a870c204",
+    "src/lcd_pending/lcd_rhythm_renderer.v": "b4d216b0180353f837fc07cf9dbd31736ea1ef6514c579991e5c9cdfe48bbdce",
+    "src/lcd_pending/lcd_score_renderer.v": "9d60f8388f7fb3275a87a1b46b6ced081dac3cc34110c4f822c42147985d514a",
+    "src/lcd_pending/lcd_timing_generic.v": "083daf33c1e73a0548dd6eff937791bd438e56437a921dd2e01cfd856c0524d3",
+    "src/lcd_pending/visualizer_tables.v": "473ad5a6b97cf194955317f04d9f34bb13194a1d5b4dc75e3038be9e79bdca56",
+    "guitar_penghuwan_ledguide.gprj": "64f0605bd49cb930ee7eda08902cdcfbda0f9baa989746f6eceb45f202979e9f",
+    "config/guitar_penghuwan_ledguide_process_config.json": "ff6d7aa713c0a4f5bd7d1d384c3b5cf9d662a3900ed5ef7f867614d40b98da59"
+  },
+  "build_input_sources": {
+    "src/accordion_reed_table.v": "da06c7859d297b2b323162db3ac784d43c5704c3cd838b1c84174980c969e468",
+    "src/accordion_synth_7.v": "e3d826108aa675574ce66ec1ce3cfac29ee055ca6a0a3f7dc789cdebb6948642",
+    "src/ads7828_panel.v": "89dae61013fa0541628d35b0df7e24d238bbd975ad57e9e1636613c64893a790",
+    "src/adsr_envelope.v": "d9869e643bfe8c31897a8693acab5d84545f65517187ef265231a8fb3292968c",
+    "src/bluetooth_command_rx.v": "37f4dc9fa098a2ee562d53b3da4a96beabc4aed04d63cad078dbd9ad5bdf8412",
+    "src/bluetooth_reply.v": "606101637300e8c116a2b99882d0fabb6ac7b0cc6fb862fbc224aeb46e4c8657",
+    "src/bluetooth_reply_studio.v": "9de3bbbd6b1b3528a29686240857e8ea94d9e04fd00245d04d85c4e9d49c0c28",
+    "src/bluetooth_score.v": "9e4c422e871346d7cc4d78671691bbad352ac3a888bb915824e0d325bb97ba02",
+    "src/bluetooth_score_studio.v": "54661d58681bd32e3b8d98c3157e793a94763fdcab55f5da272c0f1b86e98961",
+    "src/bluetooth_uart.v": "b7abbc45decc94dc56621584e8ea9eef33c69d5ab60a4a9692476559fbae73cf",
+    "src/challenge_catalog.v": "ee4df77f3e0f8761744f8fd7b000232d0c1f128eae3b6d7582e90b61a9c961db",
+    "src/challenge_catalog_store.v": "ce53b2fb11e9af7a2c21d4b4987be0b41d6bc36dc9f14b7ce3a6334914f219ef",
+    "src/challenge_music.v": "9774d3b90454c18f2d06d700c615749b8c9b0a885c98da641dcd8c5eaab6b2ea",
+    "src/challenge_title_rom.v": "32c1e60ebfb430c1da40f781e0e66c723f6479a39ea89a850cb6c403a7f8a6a9",
+    "src/control_panel_map.v": "0ad32278866a6218cc29f98abacccee6395ffd5e988463e00ce69e2973339be6",
+    "src/guitar_penghuwan_ledguide.cst": "bd8de09dbf9830836654f9b699ac2c807a5a9797f11581f533de32b0ce5738f4",
+    "src/guitar_penghuwan_ledguide.sdc": "6969a642e821d19a3e1ec7ab2b82df43f52925cd48fb2ec9062a72e526c4300c",
+    "src/guitar_penghuwan_ledguide.v": "03159169b25c45ac7ac7fe5ecc89fa9f5130af2560d9dd4f6f7466ffde53d761",
+    "src/guitar_synth_7.v": "cdfe5ad1582965b790bd1a24e140607241c2c0e8a4492333380ab249b6efdb68",
+    "src/guitar_voice.v": "114606003d1e79b1bc0624d907bb21e8150c273b388f863dd0155a17bfc9fd4c",
+    "src/i2s_tx.v": "c610459faa855ba92a18b992f162dab4367b4e19d06aaddff64f56655d0d4f0b",
+    "src/keyboard60_controls.v": "d7a6a0ac36e841196d263816bd27c3be8b36c056114c6fac38d7417cea5acda3",
+    "src/keyboard60_led.v": "628865360bdaee03c6129602f7ac12d93fd9abd94ee2aaa58121dbb123b4eaae",
+    "src/keyboard60_performance.v": "6b2dbc5bc3d050c2afadee4db97b8d8e96198a861efb00d2ee18f674755d5dfd",
+    "src/keyboard60_scan.v": "70dc21897edf68805f6daf99f628915b1997ae964faf3ae2bc3dc1fe21d85889",
+    "src/keyboard60_tables.v": "f46cd1d10e56a1259e6384d1d990487af7e7baf451c99fc8ac0fb178adacd4a5",
+    "src/led_practice_control.v": "413f229e66cdc4f87b2ebcbe786c88de5825e8a90bc81ce41c95770a2f97f1cf",
+    "src/penghuwan_score_rom.v": "58cdaed02f4e8236c6431d60957a4341545acf024e9cc6d8f2f9895f697bffba",
+    "src/performance_control.v": "c63368b84d2f308e8865367b698ba0793dc371e1953ae57916a481d8ff0f8cc0",
+    "src/performance_display.v": "3340d8cf0287af379595b1b027c03f170438a1027ee8e9d22a269a38b80504c0",
+    "src/performance_mix.v": "d6e2742a1e08460758ff74b56c8fc311352bed81b494165993e26f4ea1944ac5",
+    "src/performance_pitch_table.v": "03281cd968a85c53843edd1629dc3670caad94c758e4fa1662690008b2daf5b3",
+    "src/piano_modal_synth_7.v": "92530d2cb4ba58fd3d24953a2c00bc4fe4d116d05265327074b99040f15f2231",
+    "src/piano_modal_tables.v": "bfe36c72ec1720585675ea77b53a26fca21ae8baefa816c9cad6c0cb303c17f2",
+    "src/poly32_lane.v": "a9f222a0a400da1a481d7f082331cf3c766b33b654af2fbf57c684455a0895df",
+    "src/poly32_synth.v": "65a2d87694fcf3ceac542651785a79979b978dd9781a7d9b6ff23b7e04ec8f8a",
+    "src/practice_record_store.v": "9e79f7fa144ddfddc40833a5f7f57dfab5ff2bed969aa03bf435b2bfd86ad648",
+    "src/pt8211_tx.v": "1a4b661f19d79e16cc28b70d616787d713ec7a9f8eaa31fc9507a27979f533c4",
+    "src/rhythm_challenge.v": "8af81c6638a3e5d96b6ce2837cca9b256ec3de22f841c7db027d7004039cf5c3",
+    "src/sd_file_volume.v": "7b542fca0d999a5435d6ef4abe20e24024a9afaa252706ff0f069df7d0a51f7a",
+    "src/sd_pin_trace.v": "6c6f43b241b7b2f3923a6f532b7290d4faf001455c98a30e95b10c7131033b25",
+    "src/sd_spi_block.v": "2fc3b4cb6aa05c4570a70d8a527b6ba9cf3fb6c8f7421aead68773a6a5613b63",
+    "src/studio_audio_store.v": "5995ccc2aa5f5fd6911bed5537f2f9c3b8c774337611ecdca05daebc9f7a1062",
+    "src/studio_keymap.v": "7b3979cb8a01417876c4ec10931453118a09bd983b8b2a292501878667391557",
+    "src/studio_link.v": "a429c554b480668f5599665dfd95e0752fb5807d72b75af368d931e1a747dfbc",
+    "src/studio_pcm_capture.v": "9eee29f826914c4056be426f1133b0117c296b9989ba4de80797dfb83d2f6389",
+    "src/studio_score_store.v": "a4d9925da3e00991b0a99ef0921fab7bdb668eb10e5a69e6db8075f676594b33",
+    "src/studio_storage.v": "f54181a4ed97f0e0c325aa3ff52f1d9a7f6daf65e724807b85318946ee4a7902",
+    "src/timbre_select.v": "7ee25c4b9f10528408afc0a4ad733cc03ce46c77fe52966e05ff9b1fd836616e",
+    "src/tone_output_filter.v": "6a9617b9be0fcc44cc8ada70b11d52f901f892261085a26fef472eb9ae0d24f9",
+    "src/training_score_rom.v": "c491e94a263f6e25eb6b14b308158c0186dcca973f411678796e8d691d3ad964",
+    "src/lcd_pending/adsr_parameter_bank.v": "512da3982883a738c61f5586d86f05f10150bfb72fe00c3662231d1a4e0ac35e",
+    "src/lcd_pending/adsr_parameter_tables.v": "169a2365ab83e8f393e186ac8b8858c1fab717647bfc07038a322e83ecd3b398",
+    "src/lcd_pending/adsr_runtime.v": "ec4f4ee73bed53d2e08fde3b1bec7d25554e8e8869bc83001d7fad0b0c0f2fc3",
+    "src/lcd_pending/adsr_touch_sliders.v": "280b8d855186294491e88fc76c5b8f2c2ce2f76e453e44dce63ad9aa6db6e38d",
+    "src/lcd_pending/audio_fundamental_monitor.v": "d8c209c4ee228ae1717ad084a51ab77d22913761fe1714650c931cfa7a6d986b",
+    "src/lcd_pending/audio_phase_plot.v": "bfe01e00102495a33c683698be0bb07493bb05cb88337516d686ffe5817fff7e",
+    "src/lcd_pending/audio_plot_reference.v": "23fe5240f20e8224c167b683d66f5e1a546e89af7ff2df40299554903f643af1",
+    "src/lcd_pending/audio_spectrum.v": "1eb08f9d2838daca14727406b7d8550da6852496bcf2a134d45bcb3314380aaf",
+    "src/lcd_pending/audio_wave_capture.v": "8904b079f198f8232fc0c37ba3735d3bc67a9e28e6bcd51e8cc338512172a3d1",
+    "src/lcd_pending/gt911_touch_reader.v": "54506e3b8b516010e8d4a15c8c2cb36981c6b7cdd219c1db3cfae95c8e62ab0a",
+    "src/lcd_pending/i2c_register_master.v": "51eec1812f28c4913e6973bb6eebfb7a3e36871bb981b122a0ccb90ce91cafc5",
+    "src/lcd_pending/lcd_adsr_panel.v": "67aa493b689f47f7e0471824b38a3ec916929c3001c6741ae70544cb747edfcd",
+    "src/lcd_pending/lcd_adsr_renderer.v": "050fdeccf4304e76f2a4c7edd1d39129595b4f1de0551a74aee775d467cde5b1",
+    "src/lcd_pending/lcd_panel_digit.v": "b8796343c38656cd8f1d7897545f69c00448817a0873581219982b64776b75c6",
+    "src/lcd_pending/lcd_panel_font.v": "ecd6bcdc27f48930891b71e68e4edfaa5a3e4a3fb6564a00494297217043f44f",
+    "src/lcd_pending/lcd_panel_text.v": "ee036776b4c35fb02a757039ed5ddb9c1c16c4ac04d6db4b14110781a870c204",
+    "src/lcd_pending/lcd_rhythm_renderer.v": "b4d216b0180353f837fc07cf9dbd31736ea1ef6514c579991e5c9cdfe48bbdce",
+    "src/lcd_pending/lcd_score_renderer.v": "9d60f8388f7fb3275a87a1b46b6ced081dac3cc34110c4f822c42147985d514a",
+    "src/lcd_pending/lcd_timing_generic.v": "083daf33c1e73a0548dd6eff937791bd438e56437a921dd2e01cfd856c0524d3",
+    "src/lcd_pending/visualizer_tables.v": "473ad5a6b97cf194955317f04d9f34bb13194a1d5b4dc75e3038be9e79bdca56",
+    "guitar_penghuwan_ledguide.gprj": "64f0605bd49cb930ee7eda08902cdcfbda0f9baa989746f6eceb45f202979e9f",
+    "config/guitar_penghuwan_ledguide_process_config.json": "4dd4c336ad026b9a375f728f6a939e36baa8dab720aa7fdb1d052c96f1086333"
+  },
+  "build_record": "verification/keyboard60_route_p2_r0_f100_adsr_light_p2_20261103/build_result.json",
+  "temporary_cache": "C:\\Users\\fy\\AppData\\Local\\Temp\\yunyin_60key_p2r0_t8ktb9qz",
+  "synthesis_netlist_sha256": "418145bc6fec542d5efed1211b86c8e84d80374bd57795f29e4608a9681b23d9",
+  "synthesis_netlist_gzip": "verification/adsr_library_20261102/final_netlist.vg.gz",
+  "synthesis_logic_audit": {
+    "passed": true,
+    "netlist": "C:\\Users\\fy\\AppData\\Local\\Temp\\yunyin_pressure_fx_ufh_33hq\\impl\\gwsynthesis\\guitar_penghuwan_ledguide.vg",
+    "netlist_sha256": "418145bc6fec542d5efed1211b86c8e84d80374bd57795f29e4608a9681b23d9",
+    "scope": "Synthesis primitive attribution. Per-module values are LUT/ALU/FF, not physical packed CLS.",
+    "synthesis_report_totals_checked": true,
+    "totals": {
+      "logic_cells": 49605,
+      "lut": 41622,
+      "alu": 7983,
+      "ff": 21778
+    },
+    "primitives": {
+      "IBUF": 5,
+      "IOBUF": 7,
+      "TBUF": 1,
+      "OBUF": 42,
+      "LUT3": 13576,
+      "LUT4": 23142,
+      "LUT2": 4740,
+      "DFFRE": 20652,
+      "ALU": 7983,
+      "MUX2_LUT5": 1469,
+      "MUX2_LUT6": 485,
+      "MUX2_LUT7": 176,
+      "DFFSE": 1126,
+      "INV": 164,
+      "VCC": 64,
+      "GND": 64,
+      "pROM": 21,
+      "SDPB": 53,
+      "MUX2_LUT8": 69,
+      "MULTALU27X18": 32,
+      "MULT12X12": 3,
+      "DPB": 1,
+      "SPX9": 2,
+      "pROMX9": 5,
+      "MULT27X36": 15,
+      "MULTADDALU12X12": 1,
+      "SDPX9B": 6,
+      "GSR": 1
+    },
+    "physical_cls_if_reported": null,
+    "top_level_direct": {
+      "logic_cells": 1838,
+      "lut": 1803,
+      "alu": 35,
+      "ff": 121
+    },
+    "top_level": [
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly",
+        "module": "poly32_synth",
+        "depth": 1,
+        "logic_cells": 16056,
+        "lut": 12436,
+        "alu": 3620,
+        "ff": 8361,
+        "direct": {
+          "logic_cells": 5462,
+          "lut": 4678,
+          "alu": 784,
+          "ff": 3102
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage",
+        "module": "studio_storage",
+        "depth": 1,
+        "logic_cells": 9805,
+        "lut": 8048,
+        "alu": 1757,
+        "ff": 4530,
+        "direct": {
+          "logic_cells": 109,
+          "lut": 109,
+          "alu": 0,
+          "ff": 2
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel",
+        "module": "lcd_adsr_panel",
+        "depth": 1,
+        "logic_cells": 8039,
+        "lut": 6982,
+        "alu": 1057,
+        "ff": 3294,
+        "direct": {
+          "logic_cells": 958,
+          "lut": 950,
+          "alu": 8,
+          "ff": 605
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_studio",
+        "module": "studio_link",
+        "depth": 1,
+        "logic_cells": 5369,
+        "lut": 5175,
+        "alu": 194,
+        "ff": 1464,
+        "direct": {
+          "logic_cells": 4903,
+          "lut": 4821,
+          "alu": 82,
+          "ff": 1038
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_score",
+        "module": "bluetooth_score_studio",
+        "depth": 1,
+        "logic_cells": 1713,
+        "lut": 1527,
+        "alu": 186,
+        "ff": 677,
+        "direct": {
+          "logic_cells": 1564,
+          "lut": 1412,
+          "alu": 152,
+          "ff": 459
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_performance_mix",
+        "module": "performance_mix",
+        "depth": 1,
+        "logic_cells": 1285,
+        "lut": 970,
+        "alu": 315,
+        "ff": 406,
+        "direct": {
+          "logic_cells": 1285,
+          "lut": 970,
+          "alu": 315,
+          "ff": 406
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_rhythm",
+        "module": "rhythm_challenge",
+        "depth": 1,
+        "logic_cells": 1179,
+        "lut": 909,
+        "alu": 270,
+        "ff": 519,
+        "direct": {
+          "logic_cells": 1140,
+          "lut": 870,
+          "alu": 270,
+          "ff": 519
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_guide",
+        "module": "led_practice_control",
+        "depth": 1,
+        "logic_cells": 964,
+        "lut": 853,
+        "alu": 111,
+        "ff": 221,
+        "direct": {
+          "logic_cells": 964,
+          "lut": 853,
+          "alu": 111,
+          "ff": 221
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_keys",
+        "module": "keyboard60_scan",
+        "depth": 1,
+        "logic_cells": 743,
+        "lut": 728,
+        "alu": 15,
+        "ff": 458,
+        "direct": {
+          "logic_cells": 743,
+          "lut": 728,
+          "alu": 15,
+          "ff": 458
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_performance",
+        "module": "keyboard60_performance",
+        "depth": 1,
+        "logic_cells": 563,
+        "lut": 509,
+        "alu": 54,
+        "ff": 230,
+        "direct": {
+          "logic_cells": 563,
+          "lut": 509,
+          "alu": 54,
+          "ff": 230
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_output_gain",
+        "module": "audio_output_gain",
+        "depth": 1,
+        "logic_cells": 419,
+        "lut": 358,
+        "alu": 61,
+        "ff": 32,
+        "direct": {
+          "logic_cells": 419,
+          "lut": 358,
+          "alu": 61,
+          "ff": 32
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\control_adc.adc",
+        "module": "ads7828_panel",
+        "depth": 1,
+        "logic_cells": 302,
+        "lut": 265,
+        "alu": 37,
+        "ff": 299,
+        "direct": {
+          "logic_cells": 302,
+          "lut": 265,
+          "alu": 37,
+          "ff": 299
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_leds",
+        "module": "keyboard60_led",
+        "depth": 1,
+        "logic_cells": 301,
+        "lut": 270,
+        "alu": 31,
+        "ff": 259,
+        "direct": {
+          "logic_cells": 301,
+          "lut": 270,
+          "alu": 31,
+          "ff": 259
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\control_adc.map",
+        "module": "control_panel_map",
+        "depth": 1,
+        "logic_cells": 284,
+        "lut": 197,
+        "alu": 87,
+        "ff": 63,
+        "direct": {
+          "logic_cells": 284,
+          "lut": 197,
+          "alu": 87,
+          "ff": 63
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_reply",
+        "module": "bluetooth_reply_studio",
+        "depth": 1,
+        "logic_cells": 221,
+        "lut": 221,
+        "alu": 0,
+        "ff": 197,
+        "direct": {
+          "logic_cells": 221,
+          "lut": 221,
+          "alu": 0,
+          "ff": 197
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_uart",
+        "module": "bluetooth_uart",
+        "depth": 1,
+        "logic_cells": 131,
+        "lut": 131,
+        "alu": 0,
+        "ff": 72,
+        "direct": {
+          "logic_cells": 131,
+          "lut": 131,
+          "alu": 0,
+          "ff": 72
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_tone_finish",
+        "module": "tone_output_filter",
+        "depth": 1,
+        "logic_cells": 93,
+        "lut": 30,
+        "alu": 63,
+        "ff": 63,
+        "direct": {
+          "logic_cells": 93,
+          "lut": 30,
+          "alu": 63,
+          "ff": 63
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_sd_pads",
+        "module": "sd_pin_trace",
+        "depth": 1,
+        "logic_cells": 71,
+        "lut": 33,
+        "alu": 38,
+        "ff": 59,
+        "direct": {
+          "logic_cells": 71,
+          "lut": 33,
+          "alu": 38,
+          "ff": 59
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_audio",
+        "module": "pt8211_tx",
+        "depth": 1,
+        "logic_cells": 69,
+        "lut": 50,
+        "alu": 19,
+        "ff": 63,
+        "direct": {
+          "logic_cells": 69,
+          "lut": 50,
+          "alu": 19,
+          "ff": 63
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_catalog",
+        "module": "challenge_catalog_store",
+        "depth": 1,
+        "logic_cells": 68,
+        "lut": 56,
+        "alu": 12,
+        "ff": 318,
+        "direct": {
+          "logic_cells": 68,
+          "lut": 56,
+          "alu": 12,
+          "ff": 318
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_i2s",
+        "module": "i2s_tx",
+        "depth": 1,
+        "logic_cells": 52,
+        "lut": 47,
+        "alu": 5,
+        "ff": 43,
+        "direct": {
+          "logic_cells": 52,
+          "lut": 47,
+          "alu": 5,
+          "ff": 43
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_timbre",
+        "module": "timbre_select",
+        "depth": 1,
+        "logic_cells": 34,
+        "lut": 18,
+        "alu": 16,
+        "ff": 22,
+        "direct": {
+          "logic_cells": 34,
+          "lut": 18,
+          "alu": 16,
+          "ff": 22
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_controls",
+        "module": "keyboard60_controls",
+        "depth": 1,
+        "logic_cells": 6,
+        "lut": 6,
+        "alu": 0,
+        "ff": 7,
+        "direct": {
+          "logic_cells": 6,
+          "lut": 6,
+          "alu": 0,
+          "ff": 7
+        }
+      }
+    ],
+    "hierarchy": [
+      {
+        "path": "guitar_penghuwan_ledguide",
+        "module": "guitar_penghuwan_ledguide",
+        "depth": 0,
+        "logic_cells": 49605,
+        "lut": 41622,
+        "alu": 7983,
+        "ff": 21778,
+        "direct": {
+          "logic_cells": 1838,
+          "lut": 1803,
+          "alu": 35,
+          "ff": 121
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_keys",
+        "module": "keyboard60_scan",
+        "depth": 1,
+        "logic_cells": 743,
+        "lut": 728,
+        "alu": 15,
+        "ff": 458,
+        "direct": {
+          "logic_cells": 743,
+          "lut": 728,
+          "alu": 15,
+          "ff": 458
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\control_adc.adc",
+        "module": "ads7828_panel",
+        "depth": 1,
+        "logic_cells": 302,
+        "lut": 265,
+        "alu": 37,
+        "ff": 299,
+        "direct": {
+          "logic_cells": 302,
+          "lut": 265,
+          "alu": 37,
+          "ff": 299
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\control_adc.map",
+        "module": "control_panel_map",
+        "depth": 1,
+        "logic_cells": 284,
+        "lut": 197,
+        "alu": 87,
+        "ff": 63,
+        "direct": {
+          "logic_cells": 284,
+          "lut": 197,
+          "alu": 87,
+          "ff": 63
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_controls",
+        "module": "keyboard60_controls",
+        "depth": 1,
+        "logic_cells": 6,
+        "lut": 6,
+        "alu": 0,
+        "ff": 7,
+        "direct": {
+          "logic_cells": 6,
+          "lut": 6,
+          "alu": 0,
+          "ff": 7
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_catalog",
+        "module": "challenge_catalog_store",
+        "depth": 1,
+        "logic_cells": 68,
+        "lut": 56,
+        "alu": 12,
+        "ff": 318,
+        "direct": {
+          "logic_cells": 68,
+          "lut": 56,
+          "alu": 12,
+          "ff": 318
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_catalog/rom",
+        "module": "challenge_catalog_rom",
+        "depth": 2,
+        "logic_cells": 0,
+        "lut": 0,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 0,
+          "lut": 0,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_rhythm",
+        "module": "rhythm_challenge",
+        "depth": 1,
+        "logic_cells": 1179,
+        "lut": 909,
+        "alu": 270,
+        "ff": 519,
+        "direct": {
+          "logic_cells": 1140,
+          "lut": 870,
+          "alu": 270,
+          "ff": 519
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_rhythm/\\multi.info",
+        "module": "challenge_song_info",
+        "depth": 2,
+        "logic_cells": 39,
+        "lut": 39,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 39,
+          "lut": 39,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_uart",
+        "module": "bluetooth_uart",
+        "depth": 1,
+        "logic_cells": 131,
+        "lut": 131,
+        "alu": 0,
+        "ff": 72,
+        "direct": {
+          "logic_cells": 131,
+          "lut": 131,
+          "alu": 0,
+          "ff": 72
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_sd_pads",
+        "module": "sd_pin_trace",
+        "depth": 1,
+        "logic_cells": 71,
+        "lut": 33,
+        "alu": 38,
+        "ff": 59,
+        "direct": {
+          "logic_cells": 71,
+          "lut": 33,
+          "alu": 38,
+          "ff": 59
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_reply",
+        "module": "bluetooth_reply_studio",
+        "depth": 1,
+        "logic_cells": 221,
+        "lut": 221,
+        "alu": 0,
+        "ff": 197,
+        "direct": {
+          "logic_cells": 221,
+          "lut": 221,
+          "alu": 0,
+          "ff": 197
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage",
+        "module": "studio_storage",
+        "depth": 1,
+        "logic_cells": 9805,
+        "lut": 8048,
+        "alu": 1757,
+        "ff": 4530,
+        "direct": {
+          "logic_cells": 109,
+          "lut": 109,
+          "alu": 0,
+          "ff": 2
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage/card",
+        "module": "sd_spi_block",
+        "depth": 2,
+        "logic_cells": 767,
+        "lut": 751,
+        "alu": 16,
+        "ff": 278,
+        "direct": {
+          "logic_cells": 767,
+          "lut": 751,
+          "alu": 16,
+          "ff": 278
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage/volume",
+        "module": "sd_file_volume",
+        "depth": 2,
+        "logic_cells": 3062,
+        "lut": 2381,
+        "alu": 681,
+        "ff": 1326,
+        "direct": {
+          "logic_cells": 3062,
+          "lut": 2381,
+          "alu": 681,
+          "ff": 1326
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage/scores",
+        "module": "studio_score_store",
+        "depth": 2,
+        "logic_cells": 1872,
+        "lut": 1634,
+        "alu": 238,
+        "ff": 891,
+        "direct": {
+          "logic_cells": 1872,
+          "lut": 1634,
+          "alu": 238,
+          "ff": 891
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage/audio",
+        "module": "studio_audio_store",
+        "depth": 2,
+        "logic_cells": 1778,
+        "lut": 1204,
+        "alu": 574,
+        "ff": 924,
+        "direct": {
+          "logic_cells": 1778,
+          "lut": 1204,
+          "alu": 574,
+          "ff": 924
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_storage/records",
+        "module": "practice_record_store",
+        "depth": 2,
+        "logic_cells": 2217,
+        "lut": 1969,
+        "alu": 248,
+        "ff": 1109,
+        "direct": {
+          "logic_cells": 2217,
+          "lut": 1969,
+          "alu": 248,
+          "ff": 1109
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_studio",
+        "module": "studio_link",
+        "depth": 1,
+        "logic_cells": 5369,
+        "lut": 5175,
+        "alu": 194,
+        "ff": 1464,
+        "direct": {
+          "logic_cells": 4903,
+          "lut": 4821,
+          "alu": 82,
+          "ff": 1038
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_studio/parser",
+        "module": "bluetooth_command_rx",
+        "depth": 2,
+        "logic_cells": 173,
+        "lut": 139,
+        "alu": 34,
+        "ff": 250,
+        "direct": {
+          "logic_cells": 173,
+          "lut": 139,
+          "alu": 34,
+          "ff": 250
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_studio/keymap",
+        "module": "studio_keymap",
+        "depth": 2,
+        "logic_cells": 108,
+        "lut": 93,
+        "alu": 15,
+        "ff": 68,
+        "direct": {
+          "logic_cells": 108,
+          "lut": 93,
+          "alu": 15,
+          "ff": 68
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_studio/recording",
+        "module": "studio_pcm_capture",
+        "depth": 2,
+        "logic_cells": 185,
+        "lut": 122,
+        "alu": 63,
+        "ff": 108,
+        "direct": {
+          "logic_cells": 185,
+          "lut": 122,
+          "alu": 63,
+          "ff": 108
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_score",
+        "module": "bluetooth_score_studio",
+        "depth": 1,
+        "logic_cells": 1713,
+        "lut": 1527,
+        "alu": 186,
+        "ff": 677,
+        "direct": {
+          "logic_cells": 1564,
+          "lut": 1412,
+          "alu": 152,
+          "ff": 459
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_bt_score/parser",
+        "module": "bluetooth_command_rx_0",
+        "depth": 2,
+        "logic_cells": 149,
+        "lut": 115,
+        "alu": 34,
+        "ff": 218,
+        "direct": {
+          "logic_cells": 149,
+          "lut": 115,
+          "alu": 34,
+          "ff": 218
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_guide",
+        "module": "led_practice_control",
+        "depth": 1,
+        "logic_cells": 964,
+        "lut": 853,
+        "alu": 111,
+        "ff": 221,
+        "direct": {
+          "logic_cells": 964,
+          "lut": 853,
+          "alu": 111,
+          "ff": 221
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_timbre",
+        "module": "timbre_select",
+        "depth": 1,
+        "logic_cells": 34,
+        "lut": 18,
+        "alu": 16,
+        "ff": 22,
+        "direct": {
+          "logic_cells": 34,
+          "lut": 18,
+          "alu": 16,
+          "ff": 22
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel",
+        "module": "lcd_adsr_panel",
+        "depth": 1,
+        "logic_cells": 8039,
+        "lut": 6982,
+        "alu": 1057,
+        "ff": 3294,
+        "direct": {
+          "logic_cells": 958,
+          "lut": 950,
+          "alu": 8,
+          "ff": 605
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/raster",
+        "module": "lcd_timing_generic",
+        "depth": 2,
+        "logic_cells": 71,
+        "lut": 41,
+        "alu": 30,
+        "ff": 24,
+        "direct": {
+          "logic_cells": 71,
+          "lut": 41,
+          "alu": 30,
+          "ff": 24
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/touch",
+        "module": "gt911_touch_reader",
+        "depth": 2,
+        "logic_cells": 560,
+        "lut": 490,
+        "alu": 70,
+        "ff": 314,
+        "direct": {
+          "logic_cells": 284,
+          "lut": 245,
+          "alu": 39,
+          "ff": 191
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/touch/master",
+        "module": "i2c_register_master",
+        "depth": 3,
+        "logic_cells": 276,
+        "lut": 245,
+        "alu": 31,
+        "ff": 123,
+        "direct": {
+          "logic_cells": 276,
+          "lut": 245,
+          "alu": 31,
+          "ff": 123
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/live_sliders",
+        "module": "adsr_touch_sliders",
+        "depth": 2,
+        "logic_cells": 36,
+        "lut": 36,
+        "alu": 0,
+        "ff": 13,
+        "direct": {
+          "logic_cells": 36,
+          "lut": 36,
+          "alu": 0,
+          "ff": 13
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/performance_labels",
+        "module": "performance_display",
+        "depth": 2,
+        "logic_cells": 21,
+        "lut": 21,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 21,
+          "lut": 21,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/sliders",
+        "module": "adsr_touch_sliders_0",
+        "depth": 2,
+        "logic_cells": 15,
+        "lut": 15,
+        "alu": 0,
+        "ff": 13,
+        "direct": {
+          "logic_cells": 15,
+          "lut": 15,
+          "alu": 0,
+          "ff": 13
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/banks",
+        "module": "adsr_parameter_bank",
+        "depth": 2,
+        "logic_cells": 920,
+        "lut": 920,
+        "alu": 0,
+        "ff": 862,
+        "direct": {
+          "logic_cells": 920,
+          "lut": 920,
+          "alu": 0,
+          "ff": 862
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/capture",
+        "module": "audio_wave_capture",
+        "depth": 2,
+        "logic_cells": 70,
+        "lut": 62,
+        "alu": 8,
+        "ff": 56,
+        "direct": {
+          "logic_cells": 70,
+          "lut": 62,
+          "alu": 8,
+          "ff": 56
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/spectrum",
+        "module": "audio_spectrum",
+        "depth": 2,
+        "logic_cells": 1065,
+        "lut": 853,
+        "alu": 212,
+        "ff": 605,
+        "direct": {
+          "logic_cells": 1065,
+          "lut": 853,
+          "alu": 212,
+          "ff": 605
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/spectrum/tables",
+        "module": "visualizer_tables",
+        "depth": 3,
+        "logic_cells": 0,
+        "lut": 0,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 0,
+          "lut": 0,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/fundamental",
+        "module": "audio_fundamental_monitor",
+        "depth": 2,
+        "logic_cells": 771,
+        "lut": 340,
+        "alu": 431,
+        "ff": 366,
+        "direct": {
+          "logic_cells": 694,
+          "lut": 263,
+          "alu": 431,
+          "ff": 348
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/fundamental/sin_rom",
+        "module": "audio_plot_reference",
+        "depth": 3,
+        "logic_cells": 43,
+        "lut": 43,
+        "alu": 0,
+        "ff": 17,
+        "direct": {
+          "logic_cells": 43,
+          "lut": 43,
+          "alu": 0,
+          "ff": 17
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/fundamental/cos_rom",
+        "module": "audio_plot_reference_0",
+        "depth": 3,
+        "logic_cells": 34,
+        "lut": 34,
+        "alu": 0,
+        "ff": 1,
+        "direct": {
+          "logic_cells": 34,
+          "lut": 34,
+          "alu": 0,
+          "ff": 1
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/phase_plot",
+        "module": "audio_phase_plot",
+        "depth": 2,
+        "logic_cells": 884,
+        "lut": 697,
+        "alu": 187,
+        "ff": 334,
+        "direct": {
+          "logic_cells": 884,
+          "lut": 697,
+          "alu": 187,
+          "ff": 334
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw",
+        "module": "lcd_adsr_renderer",
+        "depth": 2,
+        "logic_cells": 2668,
+        "lut": 2557,
+        "alu": 111,
+        "ff": 102,
+        "direct": {
+          "logic_cells": 2383,
+          "lut": 2292,
+          "alu": 91,
+          "ff": 94
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw/font",
+        "module": "lcd_panel_font",
+        "depth": 3,
+        "logic_cells": 8,
+        "lut": 8,
+        "alu": 0,
+        "ff": 4,
+        "direct": {
+          "logic_cells": 8,
+          "lut": 8,
+          "alu": 0,
+          "ff": 4
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw/songs",
+        "module": "lcd_score_renderer",
+        "depth": 3,
+        "logic_cells": 63,
+        "lut": 60,
+        "alu": 3,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 63,
+          "lut": 60,
+          "alu": 3,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw/rhythm_draw",
+        "module": "lcd_rhythm_renderer",
+        "depth": 3,
+        "logic_cells": 206,
+        "lut": 189,
+        "alu": 17,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 206,
+          "lut": 189,
+          "alu": 17,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw/\\titles.title_rom",
+        "module": "challenge_title_rom",
+        "depth": 3,
+        "logic_cells": 8,
+        "lut": 8,
+        "alu": 0,
+        "ff": 4,
+        "direct": {
+          "logic_cells": 8,
+          "lut": 8,
+          "alu": 0,
+          "ff": 4
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_performance",
+        "module": "keyboard60_performance",
+        "depth": 1,
+        "logic_cells": 563,
+        "lut": 509,
+        "alu": 54,
+        "ff": 230,
+        "direct": {
+          "logic_cells": 563,
+          "lut": 509,
+          "alu": 54,
+          "ff": 230
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_performance/tables",
+        "module": "keyboard60_tables",
+        "depth": 2,
+        "logic_cells": 0,
+        "lut": 0,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 0,
+          "lut": 0,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly",
+        "module": "poly32_synth",
+        "depth": 1,
+        "logic_cells": 16056,
+        "lut": 12436,
+        "alu": 3620,
+        "ff": 8361,
+        "direct": {
+          "logic_cells": 5462,
+          "lut": 4678,
+          "alu": 784,
+          "ff": 3102
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[0].engine",
+        "module": "poly32_lane",
+        "depth": 2,
+        "logic_cells": 5051,
+        "lut": 3731,
+        "alu": 1320,
+        "ff": 2550,
+        "direct": {
+          "logic_cells": 4270,
+          "lut": 2957,
+          "alu": 1313,
+          "ff": 2550
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[0].engine/tables",
+        "module": "piano_modal_tables",
+        "depth": 3,
+        "logic_cells": 773,
+        "lut": 773,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 565,
+          "lut": 565,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[0].engine/tables/frequency_lookup",
+        "module": "piano_frequency_logic",
+        "depth": 4,
+        "logic_cells": 208,
+        "lut": 208,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 208,
+          "lut": 208,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[0].engine/reeds",
+        "module": "accordion_reed_table",
+        "depth": 3,
+        "logic_cells": 8,
+        "lut": 1,
+        "alu": 7,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 8,
+          "lut": 1,
+          "alu": 7,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[1].engine",
+        "module": "poly32_lane_0",
+        "depth": 2,
+        "logic_cells": 5051,
+        "lut": 3731,
+        "alu": 1320,
+        "ff": 2550,
+        "direct": {
+          "logic_cells": 4270,
+          "lut": 2957,
+          "alu": 1313,
+          "ff": 2550
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[1].engine/tables",
+        "module": "piano_modal_tables_0",
+        "depth": 3,
+        "logic_cells": 773,
+        "lut": 773,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 565,
+          "lut": 565,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[1].engine/tables/frequency_lookup",
+        "module": "piano_frequency_logic_0",
+        "depth": 4,
+        "logic_cells": 208,
+        "lut": 208,
+        "alu": 0,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 208,
+          "lut": 208,
+          "alu": 0,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[1].engine/reeds",
+        "module": "accordion_reed_table_0",
+        "depth": 3,
+        "logic_cells": 8,
+        "lut": 1,
+        "alu": 7,
+        "ff": 0,
+        "direct": {
+          "logic_cells": 8,
+          "lut": 1,
+          "alu": 7,
+          "ff": 0
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_poly/body",
+        "module": "guitar_body_color",
+        "depth": 2,
+        "logic_cells": 492,
+        "lut": 296,
+        "alu": 196,
+        "ff": 159,
+        "direct": {
+          "logic_cells": 492,
+          "lut": 296,
+          "alu": 196,
+          "ff": 159
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_performance_mix",
+        "module": "performance_mix",
+        "depth": 1,
+        "logic_cells": 1285,
+        "lut": 970,
+        "alu": 315,
+        "ff": 406,
+        "direct": {
+          "logic_cells": 1285,
+          "lut": 970,
+          "alu": 315,
+          "ff": 406
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_tone_finish",
+        "module": "tone_output_filter",
+        "depth": 1,
+        "logic_cells": 93,
+        "lut": 30,
+        "alu": 63,
+        "ff": 63,
+        "direct": {
+          "logic_cells": 93,
+          "lut": 30,
+          "alu": 63,
+          "ff": 63
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_output_gain",
+        "module": "audio_output_gain",
+        "depth": 1,
+        "logic_cells": 419,
+        "lut": 358,
+        "alu": 61,
+        "ff": 32,
+        "direct": {
+          "logic_cells": 419,
+          "lut": 358,
+          "alu": 61,
+          "ff": 32
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_audio",
+        "module": "pt8211_tx",
+        "depth": 1,
+        "logic_cells": 69,
+        "lut": 50,
+        "alu": 19,
+        "ff": 63,
+        "direct": {
+          "logic_cells": 69,
+          "lut": 50,
+          "alu": 19,
+          "ff": 63
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_i2s",
+        "module": "i2s_tx",
+        "depth": 1,
+        "logic_cells": 52,
+        "lut": 47,
+        "alu": 5,
+        "ff": 43,
+        "direct": {
+          "logic_cells": 52,
+          "lut": 47,
+          "alu": 5,
+          "ff": 43
+        }
+      },
+      {
+        "path": "guitar_penghuwan_ledguide/u_leds",
+        "module": "keyboard60_led",
+        "depth": 1,
+        "logic_cells": 301,
+        "lut": 270,
+        "alu": 31,
+        "ff": 259,
+        "direct": {
+          "logic_cells": 301,
+          "lut": 270,
+          "alu": 31,
+          "ff": 259
+        }
+      }
+    ],
+    "physical_board_test": false
+  },
+  "ram_inventory": {
+    "passed": true,
+    "netlist_sha256": "418145bc6fec542d5efed1211b86c8e84d80374bd57795f29e4608a9681b23d9",
+    "estimate_only_until_checked_against_pnr": true,
+    "estimated_blocks": 103,
+    "by_module": {
+      "challenge_catalog_rom": 2,
+      "studio_score_store": 1,
+      "studio_audio_store": 1,
+      "practice_record_store": 1,
+      "studio_pcm_capture": 16,
+      "bluetooth_score_studio": 24,
+      "adsr_parameter_bank": 4,
+      "audio_wave_capture": 1,
+      "audio_spectrum": 3,
+      "visualizer_tables": 3,
+      "audio_plot_reference": 1,
+      "audio_plot_reference_0": 1,
+      "audio_phase_plot": 5,
+      "lcd_adsr_renderer": 1,
+      "lcd_panel_font": 4,
+      "challenge_title_rom": 2,
+      "keyboard60_performance": 2,
+      "keyboard60_tables": 3,
+      "poly32_synth": 2,
+      "poly32_lane": 4,
+      "piano_modal_tables": 4,
+      "accordion_reed_table": 2,
+      "poly32_lane_0": 4,
+      "piano_modal_tables_0": 4,
+      "accordion_reed_table_0": 2,
+      "performance_mix": 6
+    },
+    "inferred_memories": [
+      {
+        "path": "top/u_catalog/rom/data_data_0_0_s",
+        "module": "challenge_catalog_rom",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_catalog/rom/data_data_0_1_s",
+        "module": "challenge_catalog_rom",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_storage/scores/buffer_buffer_0_0_s",
+        "module": "studio_score_store",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 8,
+          "BIT_WIDTH_1": 8
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_storage/audio/buffer_buffer_0_0_s",
+        "module": "studio_audio_store",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 16,
+          "BIT_WIDTH_1": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_storage/records/page_page_0_0_s",
+        "module": "practice_record_store",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 16,
+          "BIT_WIDTH_1": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_0_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_1_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_2_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_3_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_4_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_5_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_6_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_7_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_8_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_9_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_10_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_11_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_12_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_13_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_14_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_studio/recording/samples_samples_0_15_s",
+        "module": "studio_pcm_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_0_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_1_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_2_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_3_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_4_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_5_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_6_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_7_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_8_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_9_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_10_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_11_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_12_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_13_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_14_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_15_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_16_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_17_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_18_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_19_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_20_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_21_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_22_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_bt_score/events_events_0_23_s",
+        "module": "bluetooth_score_studio",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/banks/pending_values_48_s35",
+        "module": "adsr_parameter_bank",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/\\screen.u_panel/banks/pending_values_48_s36",
+        "module": "adsr_parameter_bank",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/\\screen.u_panel/capture/samples_samples_0_0_s",
+        "module": "audio_wave_capture",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 16,
+          "BIT_WIDTH_1": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/spectrum/bars_memory",
+        "module": "audio_spectrum",
+        "primitive": "DPB",
+        "widths": {
+          "BIT_WIDTH_0": 8,
+          "BIT_WIDTH_1": 8
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/spectrum/real_mem_real_mem_0_0_s",
+        "module": "audio_spectrum",
+        "primitive": "SPX9",
+        "widths": {
+          "BIT_WIDTH": 18
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/spectrum/imag_mem_imag_mem_0_0_s",
+        "module": "audio_spectrum",
+        "primitive": "SPX9",
+        "widths": {
+          "BIT_WIDTH": 18
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/spectrum/tables/twiddle_twiddle_0_0_s",
+        "module": "visualizer_tables",
+        "primitive": "pROMX9",
+        "widths": {
+          "BIT_WIDTH": 36
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/\\screen.u_panel/spectrum/tables/hann_hann_0_0_s",
+        "module": "visualizer_tables",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/fundamental/sin_rom/quarter_quarter_0_0_s",
+        "module": "audio_plot_reference",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/fundamental/cos_rom/quarter_quarter_0_0_s",
+        "module": "audio_plot_reference_0",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/phase_plot/capture_capture_0_0_s",
+        "module": "audio_phase_plot",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 32,
+          "BIT_WIDTH_1": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/\\screen.u_panel/phase_plot/history_history_0_0_s",
+        "module": "audio_phase_plot",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 16,
+          "BIT_WIDTH_1": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/phase_plot/bitmap_bitmap_0_0_s",
+        "module": "audio_phase_plot",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/phase_plot/bitmap_bitmap_1_0_s",
+        "module": "audio_phase_plot",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 1,
+          "BIT_WIDTH_1": 1
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/label_codes_label_codes_0_0_s",
+        "module": "lcd_adsr_renderer",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 8
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/font/rows_rows_0_0_s",
+        "module": "lcd_panel_font",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 4
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/font/rows_rows_0_1_s",
+        "module": "lcd_panel_font",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 4
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/font/rows_rows_0_2_s",
+        "module": "lcd_panel_font",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 4
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/font/rows_rows_0_3_s",
+        "module": "lcd_panel_font",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 4
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/\\titles.title_rom/data_data_0_0_s",
+        "module": "challenge_title_rom",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 8
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/\\screen.u_panel/draw/\\titles.title_rom/data_data_0_1_s",
+        "module": "challenge_title_rom",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 8
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance/step_memory_step_memory_0_0_s",
+        "module": "keyboard60_performance",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 32,
+          "BIT_WIDTH_1": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_performance/tables/ratio_Z_0_s",
+        "module": "keyboard60_tables",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance/tables/base_step_Z_0_s",
+        "module": "keyboard60_tables",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/pitch_rom_pitch_rom_0_0_s",
+        "module": "poly32_synth",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[0].engine/gains_gains_0_0_s",
+        "module": "poly32_lane",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 32,
+          "BIT_WIDTH_1": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[0].engine/context_memory_context_memory_0_0_s",
+        "module": "poly32_lane",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 32,
+          "BIT_WIDTH_1": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[0].engine/tables/coefficients_coefficients_0_0_s",
+        "module": "piano_modal_tables",
+        "primitive": "pROMX9",
+        "widths": {
+          "BIT_WIDTH": 36
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[0].engine/tables/coefficients_coefficients_0_1_s",
+        "module": "piano_modal_tables",
+        "primitive": "pROMX9",
+        "widths": {
+          "BIT_WIDTH": 36
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[0].engine/reeds/reed_reed_0_0_s",
+        "module": "accordion_reed_table",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_poly/\\lanes[0].engine/reeds/reed_reed_0_0_s0",
+        "module": "accordion_reed_table",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_poly/\\lanes[1].engine/gains_gains_0_0_s",
+        "module": "poly32_lane_0",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 32,
+          "BIT_WIDTH_1": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[1].engine/context_memory_context_memory_0_0_s",
+        "module": "poly32_lane_0",
+        "primitive": "SDPB",
+        "widths": {
+          "BIT_WIDTH_0": 32,
+          "BIT_WIDTH_1": 32
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[1].engine/tables/coefficients_coefficients_0_0_s",
+        "module": "piano_modal_tables_0",
+        "primitive": "pROMX9",
+        "widths": {
+          "BIT_WIDTH": 36
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[1].engine/tables/coefficients_coefficients_0_1_s",
+        "module": "piano_modal_tables_0",
+        "primitive": "pROMX9",
+        "widths": {
+          "BIT_WIDTH": 36
+        },
+        "estimated_physical_blocks": 2
+      },
+      {
+        "path": "top/u_poly/\\lanes[1].engine/reeds/reed_reed_0_0_s",
+        "module": "accordion_reed_table_0",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_poly/\\lanes[1].engine/reeds/reed_reed_0_0_s0",
+        "module": "accordion_reed_table_0",
+        "primitive": "pROM",
+        "widths": {
+          "BIT_WIDTH": 16
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance_mix/memory0_memory0_0_0_s",
+        "module": "performance_mix",
+        "primitive": "SDPX9B",
+        "widths": {
+          "BIT_WIDTH_0": 9,
+          "BIT_WIDTH_1": 9
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance_mix/memory0_memory0_0_1_s",
+        "module": "performance_mix",
+        "primitive": "SDPX9B",
+        "widths": {
+          "BIT_WIDTH_0": 9,
+          "BIT_WIDTH_1": 9
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance_mix/memory1_memory1_0_0_s",
+        "module": "performance_mix",
+        "primitive": "SDPX9B",
+        "widths": {
+          "BIT_WIDTH_0": 9,
+          "BIT_WIDTH_1": 9
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance_mix/memory1_memory1_0_1_s",
+        "module": "performance_mix",
+        "primitive": "SDPX9B",
+        "widths": {
+          "BIT_WIDTH_0": 9,
+          "BIT_WIDTH_1": 9
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance_mix/memory2_memory2_0_0_s",
+        "module": "performance_mix",
+        "primitive": "SDPX9B",
+        "widths": {
+          "BIT_WIDTH_0": 9,
+          "BIT_WIDTH_1": 9
+        },
+        "estimated_physical_blocks": 1
+      },
+      {
+        "path": "top/u_performance_mix/memory2_memory2_0_1_s",
+        "module": "performance_mix",
+        "primitive": "SDPX9B",
+        "widths": {
+          "BIT_WIDTH_0": 9,
+          "BIT_WIDTH_1": 9
+        },
+        "estimated_physical_blocks": 1
+      }
+    ],
+    "physical_card_latency_measured": false
+  },
+  "memory_parameters_unchanged": {
+    "passed": true,
+    "scope": "per-module multiset of memory primitive configuration and initialization parameters unchanged;not a full netlist equivalence proof",
+    "memory_instances": 88,
+    "baseline_netlist_sha256": "deda86e33a642e32bf8f9c75ee35d086cacdd7b26676154cdfda45116b94615f",
+    "new_netlist_sha256": "418145bc6fec542d5efed1211b86c8e84d80374bd57795f29e4608a9681b23d9",
+    "physical_board_test": false
+  },
+  "backup": "verification/adsr_library_20261102/before_C63E.zip",
+  "backup_sha256": "97337712b73523200f18d2c4f9739829104173b467d18c0585dcacde54a46dc9",
+  "prior_release_evidence": "verification/fx_audible_20261102/release.json",
+  "apk": "安装包/yunyin_v2_6_6_60key.apk",
+  "apk_sha256": "94bcac4163310a048f47257f07575104f49a1a12b076c1f0025902248b2cf26d",
+  "physical_card_test": false,
+  "physical_ble_test": false,
+  "physical_phone_ble_test": false,
+  "physical_fx_accepted": false,
+  "analog_dac_latency_measured": false,
+  "published_gui_configuration": {
+    "BACKGROUND_PROGRAMMING": "off",
+    "COMPRESS": false,
+    "CPU": true,
+    "CRC_CHECK": true,
+    "Clock_Route_Order": 0,
+    "Co-Place_IO_Registers": false,
+    "Convert_SDP32_36_to_SDP16_18": true,
+    "Correct_Hold_Violation": true,
+    "DONE": false,
+    "DOWNLOAD_SPEED": "default",
+    "DSP_Style": "Auto",
+    "Disable_Insert_Pad": false,
+    "ENABLE_CTP": false,
+    "ENABLE_MERGE_MODE": false,
+    "ENCRYPTION_KEY": false,
+    "ENCRYPTION_KEY_TEXT": "00000000000000000000000000000000",
+    "ERROR_DECTION_AND_CORRECTION": false,
+    "ERROR_DECTION_ONLY": false,
+    "ERROR_INJECTION": false,
+    "EXTERNAL_MASTER_CONFIG_CLOCK": false,
+    "Enable_DSRM": false,
+    "FORMAT": "binary",
+    "FREQUENCY_DIVIDER": "1",
+    "Generate_Constraint_File_of_Ports": false,
+    "Generate_IBIS_File": false,
+    "Generate_Post_PNR_Simulation_Model_File": false,
+    "Generate_Post_Place_File": false,
+    "Generate_SDF_File": false,
+    "Generate_VHDL_Post_PNR_Simulation_Model_File": false,
+    "Global_Freq": "50.000",
+    "GwSyn_Loop_Limit": 2000,
+    "HOTBOOT": false,
+    "I2C": false,
+    "I2C_SLAVE_ADDR": "00",
+    "IncludePath": [],
+    "Incremental_Compile": "",
+    "Initialize_Primitives": false,
+    "JTAG": false,
+    "MODE_IO": false,
+    "MSPI": false,
+    "MSPI_JUMP": false,
+    "MULTIBOOT_ADDRESS_WIDTH": "24",
+    "MULTIBOOT_MODE": "Single",
+    "MULTIBOOT_SPI_FLASH_ADDRESS": "000000",
+    "MULTIJUMP_ADDRESS_WIDTH": "24",
+    "MULTIJUMP_MODE": "Single",
+    "MULTIJUMP_SPI_FLASH_ADDRESS": "000000",
+    "Map_Option": "1",
+    "Max_Fanout": 1000,
+    "Multi_Boot": false,
+    "Netlist_Hierarchy": true,
+    "OUTPUT_BASE_NAME": "guitar_penghuwan_ledguide",
+    "Optimization_Goal": "Auto",
+    "POWER_ON_RESET_MONITOR": true,
+    "PRINT_BSRAM_MODE": "Default Mode",
+    "PRINT_BSRAM_VALUE": true,
+    "PROGRAM_DONE_BYPASS": false,
+    "PlaceInRegToIob": true,
+    "PlaceIoRegToIob": true,
+    "PlaceOutRegToIob": true,
+    "Place_Option": "2",
+    "Process_Configuration_Verion": "1.0",
+    "Promote_Physical_Constraint_Warning_to_Error": true,
+    "RAM_Style": "Auto",
+    "READY": false,
+    "RECONFIG_N": false,
+    "ROM_Style": "Auto",
+    "ROUTE_VCC": true,
+    "Ram_RW_Check": false,
+    "Replicate_Resources": false,
+    "Report_Auto-Placed_Io_Information": false,
+    "Retiming_Resource": "None",
+    "Route_Maxfan": "100",
+    "Route_Option": "0",
+    "Run_Timing_Driven": true,
+    "SECURE_MODE": false,
+    "SECURITY_BIT": true,
+    "SEU_HANDLER": false,
+    "SEU_HANDLER_CHECKSUM": false,
+    "SEU_HANDLER_MODE": "auto",
+    "SSPI": false,
+    "STOP_SEU_HANDLER": false,
+    "SerDes_retiming": false,
+    "Shift_Registers_Style": "Auto",
+    "Show_All_Warnings": false,
+    "Synthesize_tool": "GowinSyn",
+    "TclPre": "",
+    "TopModule": "guitar_penghuwan_ledguide",
+    "USERCODE": "default",
+    "Unused_Pin": "As_input_tri_stated_with_pull_up",
+    "VCC": "0.95",
+    "VCCAUX": "3.3",
+    "VCCX": "3.3",
+    "VHDL_Standard": "VHDL_Std_1993",
+    "Verilog_Standard": "Vlg_Std_2001",
+    "WAKE_UP": "0",
+    "show_all_warnings": false,
+    "turn_off_bg": false,
+    "INCREMENTAL_PLACE_ONLY": "0",
+    "INCREMENTAL_PLACE_AND_ROUTING": "0"
+  },
+  "actual_build_gui_configuration": {
+    "BACKGROUND_PROGRAMMING": "off",
+    "COMPRESS": false,
+    "CPU": true,
+    "CRC_CHECK": true,
+    "Clock_Route_Order": 0,
+    "Co-Place_IO_Registers": false,
+    "Convert_SDP32_36_to_SDP16_18": true,
+    "Correct_Hold_Violation": true,
+    "DONE": false,
+    "DOWNLOAD_SPEED": "default",
+    "DSP_Style": "Auto",
+    "Disable_Insert_Pad": false,
+    "ENABLE_CTP": false,
+    "ENABLE_MERGE_MODE": false,
+    "ENCRYPTION_KEY": false,
+    "ENCRYPTION_KEY_TEXT": "00000000000000000000000000000000",
+    "ERROR_DECTION_AND_CORRECTION": false,
+    "ERROR_DECTION_ONLY": false,
+    "ERROR_INJECTION": false,
+    "EXTERNAL_MASTER_CONFIG_CLOCK": false,
+    "Enable_DSRM": false,
+    "FORMAT": "binary",
+    "FREQUENCY_DIVIDER": "1",
+    "Generate_Constraint_File_of_Ports": false,
+    "Generate_IBIS_File": false,
+    "Generate_Post_PNR_Simulation_Model_File": false,
+    "Generate_Post_Place_File": false,
+    "Generate_SDF_File": false,
+    "Generate_VHDL_Post_PNR_Simulation_Model_File": false,
+    "Global_Freq": "50.000",
+    "GwSyn_Loop_Limit": 2000,
+    "HOTBOOT": false,
+    "I2C": false,
+    "I2C_SLAVE_ADDR": "00",
+    "IncludePath": [],
+    "Incremental_Compile": "",
+    "Initialize_Primitives": false,
+    "JTAG": false,
+    "MODE_IO": false,
+    "MSPI": false,
+    "MSPI_JUMP": false,
+    "MULTIBOOT_ADDRESS_WIDTH": "24",
+    "MULTIBOOT_MODE": "Single",
+    "MULTIBOOT_SPI_FLASH_ADDRESS": "000000",
+    "MULTIJUMP_ADDRESS_WIDTH": "24",
+    "MULTIJUMP_MODE": "Single",
+    "MULTIJUMP_SPI_FLASH_ADDRESS": "000000",
+    "Map_Option": "1",
+    "Max_Fanout": 1000,
+    "Multi_Boot": false,
+    "Netlist_Hierarchy": true,
+    "OUTPUT_BASE_NAME": "guitar_penghuwan_ledguide",
+    "Optimization_Goal": "Auto",
+    "POWER_ON_RESET_MONITOR": true,
+    "PRINT_BSRAM_MODE": "Default Mode",
+    "PRINT_BSRAM_VALUE": true,
+    "PROGRAM_DONE_BYPASS": false,
+    "PlaceInRegToIob": true,
+    "PlaceIoRegToIob": true,
+    "PlaceOutRegToIob": true,
+    "Place_Option": "2",
+    "Process_Configuration_Verion": "1.0",
+    "Promote_Physical_Constraint_Warning_to_Error": true,
+    "RAM_Style": "Auto",
+    "READY": false,
+    "RECONFIG_N": false,
+    "ROM_Style": "Auto",
+    "ROUTE_VCC": true,
+    "Ram_RW_Check": false,
+    "Replicate_Resources": false,
+    "Report_Auto-Placed_Io_Information": false,
+    "Retiming_Resource": "None",
+    "Route_Maxfan": "100",
+    "Route_Option": "0",
+    "Run_Timing_Driven": true,
+    "SECURE_MODE": false,
+    "SECURITY_BIT": true,
+    "SEU_HANDLER": false,
+    "SEU_HANDLER_CHECKSUM": false,
+    "SEU_HANDLER_MODE": "auto",
+    "SSPI": false,
+    "STOP_SEU_HANDLER": false,
+    "SerDes_retiming": false,
+    "Shift_Registers_Style": "Auto",
+    "Show_All_Warnings": false,
+    "Synthesize_tool": "GowinSyn",
+    "TclPre": "",
+    "TopModule": "guitar_penghuwan_ledguide",
+    "USERCODE": "default",
+    "Unused_Pin": "As_input_tri_stated_with_pull_up",
+    "VCC": "0.95",
+    "VCCAUX": "3.3",
+    "VCCX": "3.3",
+    "VHDL_Standard": "VHDL_Std_1993",
+    "Verilog_Standard": "Vlg_Std_2001",
+    "WAKE_UP": "0",
+    "show_all_warnings": false,
+    "turn_off_bg": false,
+    "INCREMENTAL_PLACE_ONLY": "0",
+    "INCREMENTAL_PLACE_AND_ROUTING": "0"
+  },
+  "place_option": 2,
+  "route_option": 0,
+  "new_validation_scope": "Small ADSR display only:7 current RTL suites,raster continuity and59/11595/8391 Java checks;real Java catalog HTML view. No physical board/Android/BLE test.",
+  "adsr_display": {
+    "illustration_only": true,
+    "time_axis_in_ms": false,
+    "existing_layout_preserved": true,
+    "attack_decay_release_slider_spans": "32..158px",
+    "sustain_span": "remaining hold area",
+    "display_only_files": [
+      "src/lcd_pending/lcd_adsr_panel.v",
+      "src/lcd_pending/lcd_adsr_renderer.v"
+    ],
+    "continuity": {
+      "passed": true,
+      "connected_curves": 4,
+      "cases": [
+        {
+          "case": 0,
+          "ink_pixels": 2128,
+          "continuous_columns": 577,
+          "components": 1
+        },
+        {
+          "case": 1,
+          "ink_pixels": 1976,
+          "continuous_columns": 577,
+          "components": 1
+        },
+        {
+          "case": 2,
+          "ink_pixels": 2022,
+          "continuous_columns": 577,
+          "components": 1
+        },
+        {
+          "case": 3,
+          "ink_pixels": 2029,
+          "continuous_columns": 577,
+          "components": 1
+        }
+      ],
+      "captures": {
+        "adsr_0.rgb": "a4bc5d7487435d98a402e654c3ffa03ddefbbf218dd713cf0471c861f2e85388",
+        "adsr_1.rgb": "1cc3fb59162dfa7521e8e25949c3467f4a8cd3a7bfc14738d12f3429bd3f6d77",
+        "adsr_2.rgb": "6e2b97427e6574b23f05af292aeb30abc76931eb9fff87cd9a7f621774645761",
+        "adsr_3.rgb": "d381f2bb27a9e0e31826b20cfe417a72212a5c8ccb8e9118c6d699611718b685"
+      },
+      "physical_board_test": false
+    }
+  },
+  "library": {
+    "songs": {
+      "passed": true,
+      "original_midi_assets_unchanged": true,
+      "bundle_sha256": "6c980769f88a8981a017d956cb847fac2db1794eccc426d1514b782f4ff2fe50",
+      "available_file_count": 18775,
+      "effective_chinese_versions": 2301,
+      "five_requested_songs": [
+        {
+          "title": "没有共产党就没有新中国",
+          "id": "f3b4e0f0ed85e382031ca034449ba201dac10490331d2b7b8c7b79111edf700d",
+          "original_title": "没有共产党就没有新中国",
+          "source_path": "midi/asian-pop/06328-没有共产党就没有新中国--f3b4e0f0.mid",
+          "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/06328-%E6%B2%A1%E6%9C%89%E5%85%B1%E4%BA%A7%E5%85%9A%E5%B0%B1%E6%B2%A1%E6%9C%89%E6%96%B0%E4%B8%AD%E5%9B%BD--f3b4e0f0.mid",
+          "original_notes": 406,
+          "tracks": 2,
+          "suggested_voice": 0,
+          "native_voice_notes": 137,
+          "missing_in_default_C2_B6": 0,
+          "voice_name": "Piano · 通道 1"
+        },
+        {
+          "title": "歌唱祖国",
+          "id": "156c1075b21670abfab4a70b39530579eec8150799f6cbe0f256d4b6185fdcc1",
+          "original_title": "歌唱祖国",
+          "source_path": "midi/asian-pop/歌唱祖国--156c1075.mid",
+          "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/%E6%AD%8C%E5%94%B1%E7%A5%96%E5%9B%BD--156c1075.mid",
+          "original_notes": 4019,
+          "tracks": 8,
+          "suggested_voice": 2,
+          "native_voice_notes": 406,
+          "missing_in_default_C2_B6": 0,
+          "voice_name": "Brightness · 通道 3"
+        },
+        {
+          "title": "我爱你中国",
+          "id": "3c8d81baf8240fb77143a7ce325c3efc37cdba3d7d78f3b5e5fc4c42f2a31831",
+          "original_title": "我爱你中国-电影-海外赤子-插曲",
+          "source_path": "midi/asian-pop/02668-我爱你中国-电影-海外赤子-插曲--3c8d81ba.mid",
+          "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/02668-%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD-%E7%94%B5%E5%BD%B1-%E6%B5%B7%E5%A4%96%E8%B5%A4%E5%AD%90-%E6%8F%92%E6%9B%B2--3c8d81ba.mid",
+          "original_notes": 2088,
+          "tracks": 2,
+          "suggested_voice": 1,
+          "native_voice_notes": 1103,
+          "missing_in_default_C2_B6": 40,
+          "voice_name": "音轨 3 · 通道 1"
+        },
+        {
+          "title": "茉莉花",
+          "id": "40393700222809330f3a0c9709e08b202c65a20b35ade93ed7e56fa97a26624b",
+          "original_title": "茉莉花",
+          "source_path": "midi/asian-pop/00010-茉莉花--40393700.mid",
+          "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/00010-%E8%8C%89%E8%8E%89%E8%8A%B1--40393700.mid",
+          "original_notes": 531,
+          "tracks": 2,
+          "suggested_voice": 1,
+          "native_voice_notes": 296,
+          "missing_in_default_C2_B6": 0,
+          "voice_name": "音轨 3 · 通道 1"
+        },
+        {
+          "title": "送别",
+          "id": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658",
+          "original_title": "送别",
+          "source_path": "midi/asian-pop/00519-送别--1a5bf017.mid",
+          "source_url": "https://github.com/Tsundeer/MeowField_MidiLibrary/blob/main/midi/asian-pop/00519-%E9%80%81%E5%88%AB--1a5bf017.mid",
+          "original_notes": 192,
+          "tracks": 2,
+          "suggested_voice": 1,
+          "native_voice_notes": 125,
+          "missing_in_default_C2_B6": 0,
+          "voice_name": "Track 2 · 通道 1"
+        }
+      ],
+      "manually_auditioned_or_note_by_note_checked": false
+    },
+    "java": {
+      "passed": true,
+      "tests": {
+        "RequestedSongsTests": "PASS requested songs 59 checks: five real originalMIDI hashes/JDK parsing/phone persistence/native upload preparation; no Android or BLE hardware claim",
+        "NativeTrialTests": "PASS NativeTrialTests 11595 checks; full pitches, real source immutability, timing/rests, 8192 segmentation, firmware gates, committed CRC and guarded manual skip",
+        "OriginalScoreTests": "PASS original score: 8391 checks; 8341 real MIDI notes retain pitch/octave/onset/duration; Qing Tian's 16 chromatic events no longer block source save; five MIDI and three MXL sources, 9001-note original, export bytes, all tracks, rename, corruption and legacy coexistence checked."
+      },
+      "sources": {
+        "app/src/cn/fpga/score/ChallengeSongs.java": "124ef97974ef1ef49d25c1e83b9d7cdea7bc0649a2635f809d21427cfb554388",
+        "app/src/cn/fpga/score/Score.java": "122149f447af57f67867a7ea582a1ff076a5996acf1c83477906e46ef3171fbc",
+        "app/src/cn/fpga/score/SongDraft.java": "d9bf4f2972cd0e7596b6cdca023e0ce83f35d1f830a21cd769322afac1d69eb9",
+        "app/src/cn/fpga/score/LibraryStore.java": "19880e72cda8de37b5b9687ff4d231d247c18e1863d13ed4271256d3866f8751",
+        "app/src/cn/fpga/score/OnlineCatalog.java": "33bc5e68764651421215cd872dde00db48cebdbfee81c6a3135bf7d1e829ee0c",
+        "app/src/cn/fpga/score/PopCatalog.java": "47c4c88e1fe534c4c356c4e2cc2c2e95497181b3fd8028cc034239f4d92f4cec",
+        "app/src/cn/fpga/score/MidiImport.java": "eba9801846776c4e48e733bd76612a3db0b698742d5e550d5caa91f476f5909e",
+        "app/src/cn/fpga/score/MusicXmlImport.java": "f89d7ea341341717b20feec4ac7548c27e678a8e5d6453583170b032970a974f",
+        "app/src/cn/fpga/score/JianpuGeometry.java": "96874479f2271a9aeae02e5b40d4317e4978257940e4c9edb7c2e0e3b2c33aa0",
+        "app/src/cn/fpga/score/Uploader.java": "28faba2be5fb8c7e33bd89e24e4d321c428cc9f700940501145b1013f79c582f",
+        "app/src/cn/fpga/score/ReplyFrames.java": "1a6ea148411ef3d589ddf6127e59141cafb03c5a7114fe916bb214e7bddb54c8",
+        "app/src/cn/fpga/score/ExpandedDownload.java": "51cbb322c6ad2ce5465427360ed1f2fefc8b6dabd05ed984f3642957a700530b",
+        "app/src/cn/fpga/score/KeyMapping.java": "9b7a64725559320283644f8a8fcaafc81e43ac07812c287ac278a2c1a87e0ead",
+        "app/src/cn/fpga/score/StudioProtocol.java": "da5028ad91eb5e08bd4a044d9d320a71c571db64ad18467fe5378fe2587d83ca",
+        "app/src/cn/fpga/score/StudioMonitor.java": "d8da5b4e2549cda1383b2219dd189d120da99d93c04e86d757efbd33c8ab4697",
+        "app/src/cn/fpga/score/CardAudio.java": "5061a59fe4f7a66f7e0b7a0aa7497cc851cd5e9f110fe8255244b32dd2075828",
+        "app/src/cn/fpga/score/RhythmStatus.java": "c4dc905868cc9a68bc669097b40838463f649684480effe95fa6b0b299ce9b07",
+        "app/src/cn/fpga/score/RhythmHistory.java": "69a99ca69c406cfd5b92a2bbacb5c41d5c436e647980af0bbb5ae67dc53bfbd5",
+        "app/src/cn/fpga/score/ScoreWebImport.java": "7f89c7f071ecd289bd08f98989137f21adb4965cdb9284ea0907b8c6041c8588",
+        "app/src/cn/fpga/score/OpenCatalog.java": "8363108afbf6db0ac3646b47d9c6e5fb01465bb6992d9eda54e56817146f9ed6",
+        "app/src/cn/fpga/score/CatalogPager.java": "1b06fa591a5d0e57b378ec62adae7368ef9a39a02dc7838a24b69aa60a479be3",
+        "app/src/cn/fpga/score/SongShare.java": "25b8ac1d0b662f9b6e13774dcf60fe40bd9b36c1828ccb06540dbeae682db05e",
+        "app/src/cn/fpga/score/MidiShowSource.java": "9631edbaf5967cfd0f4b94cca969242f407396d6aec31379d1a7e723ea50d385",
+        "app/src/cn/fpga/score/WebScoreStage.java": "f0d8b1ca8603c965e7005f7b800303f1647f3d2781014d4aa457c32e64a4fa36",
+        "app/src/cn/fpga/score/BundledMidiCatalog.java": "397ffd8db00647c4d55c6b54d935b025b1e889cc3a85bad5c96ec67432952d1d",
+        "app/src/cn/fpga/score/OriginalScore.java": "d37d31f1cadcacd370e7d8b635136883cd97b8f0ec875aead8958648dc718bd0",
+        "app/src/cn/fpga/score/OriginalScoreStore.java": "8a3190e1f0071ef730f8d94cc6767061ccb52f5a63e9f2d9e413666c88781db2",
+        "app/src/cn/fpga/score/OriginalPractice.java": "2957c198b680c2cb73ee465fc2ee05545f07d43892df6f0c1701c66d6be8a8de",
+        "app/src/cn/fpga/score/FreeMidiSource.java": "d34f23af16d661447639e917269c294508d03f7b238f9c24c104205a45800691",
+        "app/tests/RequestedSongsTests.java": "267136c1e04ac39314122a15a4604256b44c9c4def14e511802c94d0f24a90b2",
+        "app/tests/NativeTrialTests.java": "a86fc74657a2618ea75bb4db8587c91ebb58167df8d7a2aac33fa99cd9d1ea74",
+        "app/tests/OriginalScoreTests.java": "a16e5762cb872e87196513830b1baeb8df7dfb1acdd6e892b974d573788d369f"
+      },
+      "bundle_sha256": "6c980769f88a8981a017d956cb847fac2db1794eccc426d1514b782f4ff2fe50",
+      "actual_catalog_rows_sha256": "781b04d44d78708a192d1d8bcb5db231085426928aecf09246fa5e2456dc046b",
+      "physical_Android_or_BLE_test": false
+    },
+    "ui": {
+      "passed": true,
+      "actual_Java_catalog_rows": true,
+      "html_sha256": "b61d1889560a80e0eadca59a5a9838caeb77e80c45d681b7bc4936368c16ea64",
+      "rows_sha256": "781b04d44d78708a192d1d8bcb5db231085426928aecf09246fa5e2456dc046b",
+      "featured": [
+        "没有共产党就没有新中国",
+        "歌唱祖国",
+        "我爱你中国",
+        "茉莉花",
+        "送别"
+      ],
+      "total": 2301,
+      "checks": [
+        "five requested originals first",
+        "all60 first-page rows",
+        "original selection IDs",
+        "correct total",
+        "no script errors"
+      ],
+      "physical_Android_test": false
+    },
+    "signature": {
+      "passed": true,
+      "same_package": "cn.fpga.score",
+      "same_certificate": true,
+      "certificate_sha256": "93785a69239dce5d9735bdf7782cb926c9ed3053da73a9cfbcd42d03506ed8d2",
+      "old_version_code": 25,
+      "new_version_code": 28,
+      "data_schema_unchanged": true,
+      "physical_installation_test": false
+    },
+    "packaged_assets": {
+      "passed": true,
+      "apk_sha256": "94bcac4163310a048f47257f07575104f49a1a12b076c1f0025902248b2cf26d",
+      "actual_APK_embedded_MIDI_SHA256_verified": true,
+      "whole_bundle_sha256": "6c980769f88a8981a017d956cb847fac2db1794eccc426d1514b782f4ff2fe50",
+      "html_bytes_exact": true,
+      "songs": [
+        {
+          "title": "没有共产党就没有新中国",
+          "entry": "f3b4e0f0ed85e382031ca034449ba201dac10490331d2b7b8c7b79111edf700d.mid",
+          "bytes": 3720,
+          "sha256": "f3b4e0f0ed85e382031ca034449ba201dac10490331d2b7b8c7b79111edf700d"
+        },
+        {
+          "title": "歌唱祖国",
+          "entry": "156c1075b21670abfab4a70b39530579eec8150799f6cbe0f256d4b6185fdcc1.mid",
+          "bytes": 32035,
+          "sha256": "156c1075b21670abfab4a70b39530579eec8150799f6cbe0f256d4b6185fdcc1"
+        },
+        {
+          "title": "我爱你中国",
+          "entry": "3c8d81baf8240fb77143a7ce325c3efc37cdba3d7d78f3b5e5fc4c42f2a31831.mid",
+          "bytes": 17662,
+          "sha256": "3c8d81baf8240fb77143a7ce325c3efc37cdba3d7d78f3b5e5fc4c42f2a31831"
+        },
+        {
+          "title": "茉莉花",
+          "entry": "40393700222809330f3a0c9709e08b202c65a20b35ade93ed7e56fa97a26624b.mid",
+          "bytes": 4786,
+          "sha256": "40393700222809330f3a0c9709e08b202c65a20b35ade93ed7e56fa97a26624b"
+        },
+        {
+          "title": "送别",
+          "entry": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658.mid",
+          "bytes": 1905,
+          "sha256": "1a5bf0176fb6738f68afb02d5282fa1888354e38c40d9b1892fb07eb14222658"
+        }
+      ],
+      "physical_Android_test": false
+    }
+  },
+  "routing_warnings": [
+    "WARN  (PR1014) : Generic routing resource will be used to clock signal 'sys_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew"
+  ],
+  "programming": {
+    "programming/yunyin_60key_38400_8192.fs": {
+      "bytes": 20705235,
+      "sha256": "98fb975e157cfbaf777c8dfb88fd65fab5f07d2c93e2d7653dab9a4d43d71376"
+    },
+    "programming/yunyin_60key_38400_8192.bin": {
+      "bytes": 2580666,
+      "sha256": "29232dcb73e228b780763c091d7c4c20d269817333799528ea1f74215395f457"
+    }
+  }
+}

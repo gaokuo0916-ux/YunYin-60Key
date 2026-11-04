@@ -1,0 +1,27 @@
+{
+  "lucide_commit": "c29c276f16590cf017126671535ad8c792be64d8",
+  "open_props_commit": "f39ab7c377a0e047f930982e3611bbc95254a260",
+  "usage": "Lucide SVG subset and Open Props easing values; native Web Animations and CSS scroll snap; no remote runtime loading",
+  "reference": "https://github.com/FoedusProgramme/Gramophone",
+  "files": {
+    "arrow-up-right.svg": "50b2503b9d11881142255466b7e3461d022b919735841c321d72003ac9959fe1",
+    "audio-lines.svg": "3942b8a5d6bccc927a55f857f0d44b90e2663470cd2d569000c9b60c37578dfa",
+    "bluetooth.svg": "f2bf3d88cf608834dc389f01b1ee41fdb7bf3656dabef69632c60d5498f3bf29",
+    "check.svg": "7f33acc9a77a61659531044525fc008edebe215bf4dcf1c789c8674ad3277db0",
+    "chevron-left.svg": "83b0681aa38bf55e9d52a1e4b4cced624abe1fe7678ecafda133a574f1161d93",
+    "chevron-right.svg": "2758143d7b2434e4aa7307dfd34405c87909ff4052f21b5f3f40d45224b4f19b",
+    "disc-3.svg": "93b3102c857a46d590ffc268a8d9ea740abf9bfb30f76de42b9899e34bbba438",
+    "headphones.svg": "7719585dafa921805aefc21fc3262bbcc621507610a653b84e1632236650b35a",
+    "lucide_LICENSE.txt": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+    "mic.svg": "9b940cd735d1ffa270ba670c4e677d9a09400f3fa81d6b3f405b12a3b67a59a8",
+    "open_props_easing.css": "0767db9d3c7a630d21cd399cf9797357713a4b675e48c8281af62cddd8f01ee0",
+    "open_props_LICENSE.txt": "fed3aa342094f6bb33701d09133c159a4c124e509ede255a889dd2c28ec3ab6e",
+    "pause.svg": "f122ec4ea7f5693a0b1baafa9c708b53980dc87b4aacb297c6e6f71c1a4c115c",
+    "play.svg": "d7c34786135922a92b6896f6c2384ceeb0346afbf6041dc79982011411409833",
+    "plus.svg": "7f6af73bf1ff6c4bca3f18351c8d1bdec6749c0c2530c4de5da85d520c21df17",
+    "search.svg": "283d371c2e433817bb9c0c8310caa6c77fa4177c0f4f1168d9c83b97af7389dc",
+    "sliders-horizontal.svg": "e43a00e5eb684e6cbb61083bed2528d7a3fa5f265693eb2b5f314cd432aa65f4",
+    "upload.svg": "42816ee1fa0e9d3b82272a97615c1e562b0e9de64780ebf21963bc1db0ceffd1"
+  },
+  "method": "Open Props ease-out-5 and ease-elastic-out-1; local Lucide SVG subset; browser-native scroll-snap and Web Animations; Gramophone referenced for music-library hierarchy only, no code copied from it."
+}

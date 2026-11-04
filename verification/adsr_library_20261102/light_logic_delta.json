@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "scope": "hierarchical synthesis resource differences,not unrouted-net localization",
+  "delta": [
+    {
+      "path": "guitar_penghuwan_ledguide",
+      "depth": 0,
+      "logic_cells": 213,
+      "ff": 27
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_keys",
+      "depth": 1,
+      "logic_cells": 1,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\control_adc.adc",
+      "depth": 1,
+      "logic_cells": -1,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_storage",
+      "depth": 1,
+      "logic_cells": -4,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_storage/card",
+      "depth": 2,
+      "logic_cells": 8,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_storage/volume",
+      "depth": 2,
+      "logic_cells": 12,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_storage/scores",
+      "depth": 2,
+      "logic_cells": -28,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_storage/audio",
+      "depth": 2,
+      "logic_cells": -3,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_storage/records",
+      "depth": 2,
+      "logic_cells": 7,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_studio",
+      "depth": 1,
+      "logic_cells": 2,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_bt_score",
+      "depth": 1,
+      "logic_cells": 5,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_guide",
+      "depth": 1,
+      "logic_cells": 2,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel",
+      "depth": 1,
+      "logic_cells": 35,
+      "ff": 27
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/touch",
+      "depth": 2,
+      "logic_cells": 9,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/touch/master",
+      "depth": 3,
+      "logic_cells": 7,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/banks",
+      "depth": 2,
+      "logic_cells": 14,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/spectrum",
+      "depth": 2,
+      "logic_cells": -1,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/phase_plot",
+      "depth": 2,
+      "logic_cells": -10,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw",
+      "depth": 2,
+      "logic_cells": 15,
+      "ff": 10
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw/songs",
+      "depth": 3,
+      "logic_cells": 6,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/\\screen.u_panel/draw/rhythm_draw",
+      "depth": 3,
+      "logic_cells": 15,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_performance",
+      "depth": 1,
+      "logic_cells": -3,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_poly",
+      "depth": 1,
+      "logic_cells": 182,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[0].engine",
+      "depth": 2,
+      "logic_cells": 93,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_poly/\\lanes[1].engine",
+      "depth": 2,
+      "logic_cells": 95,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_poly/body",
+      "depth": 2,
+      "logic_cells": -6,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_performance_mix",
+      "depth": 1,
+      "logic_cells": 1,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_tone_finish",
+      "depth": 1,
+      "logic_cells": -2,
+      "ff": 0
+    },
+    {
+      "path": "guitar_penghuwan_ledguide/u_output_gain",
+      "depth": 1,
+      "logic_cells": -2,
+      "ff": 0
+    }
+  ]
+}

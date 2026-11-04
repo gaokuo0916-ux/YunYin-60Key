@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "actual_Java_catalog_rows": true,
+  "html_sha256": "b61d1889560a80e0eadca59a5a9838caeb77e80c45d681b7bc4936368c16ea64",
+  "rows_sha256": "781b04d44d78708a192d1d8bcb5db231085426928aecf09246fa5e2456dc046b",
+  "featured": [
+    "没有共产党就没有新中国",
+    "歌唱祖国",
+    "我爱你中国",
+    "茉莉花",
+    "送别"
+  ],
+  "total": 2301,
+  "checks": [
+    "five requested originals first",
+    "all60 first-page rows",
+    "original selection IDs",
+    "correct total",
+    "no script errors"
+  ],
+  "physical_Android_test": false
+}
